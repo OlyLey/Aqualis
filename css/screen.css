@@ -15,5 +15,32 @@ ul{
 
 
 /** page de marc **/
+    .flotte 
+    {
+       float:right;
+    }
+    
+    
+    img
+    {
+      padding-bottom: 30px;
+      width: 100%;
+      height: auto;
+    }
+    
+    .googlemap
+    {
+      width: 100%;
+      height: 250px;
+    }
+    .co
+    {
+      color: orange;
+    }
+    
+    .cv
+    {
+      color: green;
+    }
 
 /** page de bill **/
