@@ -4,8 +4,15 @@ body {
         color: black;
         background-color: white;
 }
+header{
+    
+}
 
-/** page de angelique **/
+/** page de angelique / accueil**/
+ul{
+    text-decoration: none;
+}
+
 
 /** page de marc **/
 
