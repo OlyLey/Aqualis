@@ -7,7 +7,12 @@ body {
         padding:0px;
 }
 
-/** page de angelique **/
+
+/** page de angelique / accueil**/
+ul{
+    text-decoration: none;
+}
+
 
 /** page de marc **/
 
