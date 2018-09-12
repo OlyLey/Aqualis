@@ -14,11 +14,17 @@ header, .nav-principal{
 	margin: 0 auto;
 }
 
+h1, h2{
+    color: #96D5FD;
+}
 .dis-none{
     display: none;
 }
 ul{
     text-decoration: none;
+}
+.blue-back{
+    background-color: #F1F9FC;
 }
 
 
