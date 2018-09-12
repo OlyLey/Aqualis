@@ -9,6 +9,14 @@ body {
 
 
 /** page de angelique / accueil**/
+header, .nav-principal{
+	max-width: 90%;
+	margin: 0 auto;
+}
+
+.dis-none{
+    display: none;
+}
 ul{
     text-decoration: none;
 }
