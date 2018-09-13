@@ -1,17 +1,73 @@
 body {
-        font-family: 'Roboto', sans-serif;
-        font-size: 15px;
-        color: black;
-        background-color: white;
-        margin:0px;
-        padding:0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: black;
+    background-color: white;
+    margin:0px;
+    padding:0px;
 }
+/** Menu par Marc**/
 
+.main {
+    background-color: white ;
+}
+.main,
+.main  ul {
+    list-style-type: none ; 
+    margin: 0px;
+    padding: 0px;
+}
+.main  ul {
+    display: none ;
+}
+.main li {
+    display: inline-block ;
+    position:   relative;
+}
+.main a {
+    display: block ;
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    padding: 1px 10px;
+    text-align: center;
+}
+.main li:hover ul {
+    display: block ;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    z-index: 100;
+}
+.main ul a {
+    display: block;
+}
+.main li {
+    background-color: #666; /* Couleur d'arriere-plan du menu */
+}
+.main li a {
+    color: #ccc; /* Couleur du texte du menu */
+}
+.main li:hover a {
+    color: #fff; /* Couleur du texte du menu au survol */
+}
+.main ul li {
+    background-color: #ccc; /* Couleur d'arriere-plan des sous-menu */
+}
+.main ul li:hover {
+    background-color: #000; /* Couleur d'arriere-plan des sous-menu au survol */ 
+}
+.main ul li a {
+        color: #666; /* Couleur du texte des sous-menu */
+}
+.main ul li:hover a {
+        color: #f00 ; /* Couleur du texte des sous-menu au survol */
+}
 
 /** page de angelique / accueil**/
 header, .nav-principal{
-	max-width: 90%;
-	margin: 0 auto;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 .blue-font{
@@ -27,37 +83,47 @@ ul{
     background-color: #F1F9FC;
 }
 accueil-h{
-    
+
 }
 
 
-/** page de marc **/
-    .flotte 
-    {
-       float:right;
-    }
-    
-    
-    img
-    {
-      padding-bottom: 30px;
-      width: 100%;
-      height: auto;
-    }
-    
-    .googlemap
-    {
-      width: 100%;
-      height: 250px;
-    }
-    .co
-    {
-      color: orange;
-    }
-    
-    .cv
-    {
-      color: green;
-    }
+/** page "Contact" de marc **/
+.flotte 
+{
+    float:right;
+}    
+img
+{
+    padding-bottom: 30px;
+    width: 100%;
+    height: auto;
+}   
+.googlemap
+{
+    width: 100%;
+    height: 250px;
+}
+.co
+{
+    color: orange;
+}
+.cv
+{
+    color: green;
+}
 
 /** page de bill **/
+
+/** Footer de marc **/
+
+.bas_de_page {
+    display: flex;
+    text-align: center;
+    position: absolute;
+    height: 15rem;
+    width: 50%;
+    
+
+
+}
+
