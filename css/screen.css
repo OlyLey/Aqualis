@@ -7,6 +7,13 @@ body {
     padding:0px;
 }
 /** Menu par Marc**/
+header div img {
+    display: block;
+    height: 200px;
+    width: auto;
+    margin: 30px auto 0;
+
+}
 
 .main {
     background-color: white ;
@@ -58,10 +65,10 @@ body {
     background-color: #000; /* Couleur d'arriere-plan des sous-menu au survol */ 
 }
 .main ul li a {
-        color: #666; /* Couleur du texte des sous-menu */
+    color: #666; /* Couleur du texte des sous-menu */
 }
 .main ul li:hover a {
-        color: #f00 ; /* Couleur du texte des sous-menu au survol */
+    color: #f00 ; /* Couleur du texte des sous-menu au survol */
 }
 
 /** page de angelique / accueil**/
@@ -115,15 +122,15 @@ img
 /** page de bill **/
 
 /** Footer de marc **/
-
 .bas_de_page {
-    display: flex;
+    display: block;
+    height: 80px;
+    width: auto;
     text-align: center;
-    position: absolute;
-    height: 15rem;
-    width: 50%;
-    
-
-
+    background: #F1F9FC;
+    margin: 30px auto 0;
 }
+
+
+
 
