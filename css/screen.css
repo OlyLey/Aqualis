@@ -14,7 +14,13 @@ header div img {
     margin: 30px auto 0;
 
 }
+.bouton{
+    background-color: #666;;
+    color: #ccc;
 
+    height: 50px;
+    width: 50px;
+}
 .main {
     background-color: white ;
 }
