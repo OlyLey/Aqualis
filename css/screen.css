@@ -14,16 +14,21 @@ header div img {
     margin: 30px auto 0;
 
 }
-.bouton{
-    background-color: #666;;
-    color: #ccc;
-
-    height: 50px;
-    width: 50px;
-}
-.nav-main {
+.main-navigation {
     
+    float : right;
 }
+
+    .main-navigation .bouton {
+        background: none;
+        color: #848484;
+        font-size: 18px;
+        font-size: 1.125em;
+        border: none;
+        outline: none;
+        position: relative;
+        top: 40px;
+        display: none; }
 .main {
     background-color: white ;
 }
