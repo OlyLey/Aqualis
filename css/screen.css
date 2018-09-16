@@ -15,39 +15,50 @@ header div img {
 
 }
 .main-navigation {
-    
+
     float : right;
 }
 
-    .main-navigation .bouton {
-        background: none;
-        color: #848484;
-        font-size: 18px;
-        font-size: 1.125em;
-        border: none;
-        outline: none;
-        position: relative;
-        top: 40px;
-        display: none; }
+.main-navigation .bouton {
+    width: 100%;
+    background: none;
+    color: #848484;
+    font-size: 16px;
+
+    border: none;
+    outline: none;
+
+    top: -10px;
+    display: block; 
+    z-index: 100;
+}
+
 .main {
     background-color: white ;
+    text-align: center;
+
 }
 .main,
 .main  ul {
+
     list-style-type: none ; 
     margin: 0px;
     padding: 0px;
+
 }
 .main  ul {
     display: none ;
 }
 .main li {
+    text-align: center;
     display: inline-block ;
     position:   relative;
+    border-style: solid;
+    border-color: #09699B;
 }
 .main a {
     display: block ;
-    width: 200px;
+    width: auto;
     height: 30px;
     line-height: 30px;
     padding: 1px 10px;
@@ -64,10 +75,10 @@ header div img {
     display: block;
 }
 .main li {
-    background-color: #666; /* Couleur d'arriere-plan du menu */
+    background-color: #FFFFFF; /* Couleur d'arriere-plan du menu */
 }
 .main li a {
-    color: #ccc; /* Couleur du texte du menu */
+    color: #09699B; /* Couleur du texte du menu */
 }
 .main li:hover a {
     color: #fff; /* Couleur du texte du menu au survol */
@@ -89,10 +100,13 @@ header div img {
 header, .nav-principal{
     max-width: 100%;
     margin: 0 auto;
+
 }
 
 .blue-font{
     color: #96D5FD;
+    padding: 50px;
+
 }
 .dis-none{
     display: none;
@@ -102,9 +116,14 @@ ul{
 }
 .blue-back{
     background-color: #F1F9FC;
+    margin: 50px;
+    text-align: center;
 }
 accueil-h{
 
+}
+p {
+    padding: 20px 0px ;
 }
 
 
@@ -136,6 +155,9 @@ img
 /** page de bill **/
 
 /** Footer de marc **/
+footer {
+    margin: 50px;
+}
 .bas_de_page {
     display: block;
     height: 80px;
