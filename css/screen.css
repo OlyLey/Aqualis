@@ -107,6 +107,10 @@ header, .nav-principal{
     color: #96D5FD;
     padding: 50px;
 
+
+}
+.ambassadeur {
+    max-width: 100%;
 }
 .dis-none{
     display: none;
@@ -123,7 +127,7 @@ accueil-h{
 
 }
 p {
-    padding: 20px 0px ;
+
 }
 
 
