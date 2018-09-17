@@ -73,12 +73,14 @@ header div img {
 }
 .main ul a {
     display: block;
+    
 }
 .main li {
     background-color: #FFFFFF; /* Couleur d'arriere-plan du menu */
 }
 .main li a {
     color: #09699B; /* Couleur du texte du menu */
+    font-size: 1.3rem;
 }
 .main li:hover a {
     color: #fff; /* Couleur du texte du menu au survol */
