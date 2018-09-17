@@ -118,7 +118,7 @@ header div img{
     color: #f00 ; /* Couleur du texte des sous-menu au survol */
 }
 
-/** page ACCUEIL de Angélique **/
+/** page ACCUEIL de AngÃ©lique **/
 
 header, .nav-principal{
     max-width: 100%;
@@ -152,6 +152,25 @@ p {
     padding: 20px 10px;
     font-size: 1.2rem;
 }
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+
+.video-container iframe,  
+.video-container object,  
+.video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
 
 
 /** page "Contact" de Marc **/
@@ -191,7 +210,7 @@ footer {
     margin: 30px auto 0;
 }
 
-/** page "ACTIVITES" de Angélique **/
+/** page "ACTIVITES" de AngÃ©lique **/
 .blue-h1{
     color: #96D5FD;
     text-align: center;
