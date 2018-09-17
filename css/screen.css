@@ -6,8 +6,15 @@ body {
     margin:0px;
     padding:0px;
 }
+
+
 /** Menu par Marc**/
+<<<<<<< HEAD
+
+header div img {
+=======
 header div img{
+>>>>>>> 6911d89290435702c96a0ade4699c24a17f187d4
     display: block;
     max-height: 12.5rem;
     max-width: 36rem;
@@ -115,7 +122,8 @@ header div img{
     color: #f00 ; /* Couleur du texte des sous-menu au survol */
 }
 
-/** page de angelique / accueil**/
+/** page ACCUEIL de Angélique **/
+
 header, .nav-principal{
     max-width: 100%;
     margin: 0 auto;
@@ -125,12 +133,8 @@ header, .nav-principal{
 .blue-font{
     color: #96D5FD;
     padding: 50px;
-
-
 }
-.ambassadeur {
-    max-width: 100%;
-}
+
 .dis-none{
     display: none;
 }
@@ -154,7 +158,7 @@ p {
 }
 
 
-/** page "Contact" de marc **/
+/** page "Contact" de Marc **/
 .flotte 
 {
     float:right;
@@ -179,7 +183,6 @@ img
     color: green;
 }
 
-/** page de bill **/
 
 /** Footer de marc **/
 footer {
@@ -194,6 +197,14 @@ footer {
     margin: 30px auto 0;
 }
 
-
+/** page "ACTIVITES" de Angélique **/
+.blue-h1{
+    color: #96D5FD;
+    text-align: center;
+}
+.pad-left-50{
+    padding-left: 50px;
+}
+/** page de Bill **/
 
 
