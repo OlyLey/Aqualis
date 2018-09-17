@@ -31,7 +31,22 @@ header div img {
     top: -10px;
     display: block; 
     z-index: 100;
-}
+    display: none;
+  }
+ 
+    @media screen and (max-width: 640px) {
+   
+    .main-navigation .bouton {
+      display: block; } 
+    .main {
+      display: none;
+    }
+    .main-navigation .bouton {
+      text-align: right;
+    display: block;
+    }
+    }
+
 
 .main {
     background-color: white ;
