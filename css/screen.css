@@ -9,14 +9,20 @@ body {
 
 
 /** Menu par Marc**/
+<<<<<<< HEAD
 
 header div img {
+=======
+header div img{
+>>>>>>> 6911d89290435702c96a0ade4699c24a17f187d4
     display: block;
-    height: 200px;
-    width: auto;
-    margin: 30px auto 0;
+    max-height: 12.5rem;
+    max-width: 36rem;
+    margin: 2rem auto 0;
+
 
 }
+
 .main-navigation {
 
     float : right;
