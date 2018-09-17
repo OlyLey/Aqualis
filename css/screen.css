@@ -37,20 +37,20 @@ header div img{
     display: block; 
     z-index: 100;
     display: none;
-  }
- 
-    @media screen and (max-width: 640px) {
-   
+}
+
+@media screen and (max-width: 640px) {
+
     .main-navigation .bouton {
-      display: block; } 
+        display: block; } 
     .main {
-      display: none;
+        display: none;
     }
     .main-navigation .bouton {
-      text-align: right;
-    display: block;
+        text-align: right;
+        display: block;
     }
-    }
+}
 
 
 .main {
@@ -93,7 +93,7 @@ header div img{
 }
 .main ul a {
     display: block;
-    
+
 }
 .main li {
     background-color: #FFFFFF; /* Couleur d'arriere-plan du menu */
@@ -169,16 +169,14 @@ img
 {
     width: 100%;
     height: 250px;
+    padding: 1rem;
 }
-.co
-{
-    color: orange;
+.titre_contact {
+    color: #09699B; 
 }
-.cv
-{
-    color: green;
+.contact {
+    background-color: #F1F9FC; 
 }
-
 
 /** Footer de marc **/
 footer {
