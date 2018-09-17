@@ -127,9 +127,13 @@ accueil-h{
 
 }
 p {
+<<<<<<< HEAD
+    padding: 20px 10px;
+=======
 
+>>>>>>> ac8db81bd87b159d5294a388d66ef6b796f3f6af
 }
-
+/* * pour centrer le AMBASSADEUR Laurent m'a conseillé de mettre la div en col 12'**/
 
 /** page "Contact" de marc **/
 .flotte 
