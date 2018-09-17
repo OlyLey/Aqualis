@@ -122,18 +122,18 @@ ul{
     background-color: #F1F9FC;
     margin: 50px;
     text-align: center;
+    height : 95%;
 }
-accueil-h{
 
+.blue-back h1{
+    font-size: 2.1rem;
 }
+
 p {
-<<<<<<< HEAD
     padding: 20px 10px;
-=======
-
->>>>>>> ac8db81bd87b159d5294a388d66ef6b796f3f6af
+    font-size: 1.2rem;
 }
-/* * pour centrer le AMBASSADEUR Laurent m'a conseillé de mettre la div en col 12'**/
+
 
 /** page "Contact" de marc **/
 .flotte 
