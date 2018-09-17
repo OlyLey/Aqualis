@@ -196,13 +196,9 @@ footer {
     color: #96D5FD;
     text-align: center;
 }
-.blue-back-4{
-    background-color: #F1F9FC;
-    margin: 50px;
-    text-align: center;
-    height : 43%;
+.pad-left-20{
+    padding-left: 50px;
 }
-
 /** page de Bill **/
 
 
