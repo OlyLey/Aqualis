@@ -9,6 +9,9 @@ body {
 
 
 /** Menu par Marc**/
+ol, ul {
+    list-style: none;
+}
 header div img{
 
     display: block;
@@ -57,10 +60,12 @@ header div img{
     background-color: white ;
     text-align: center;
 
+
 }
 .main,
 .main  ul {
-
+    /*border-style: solid;
+    border-color: #09699B;*/
     list-style-type: none ; 
     margin: 0px;
     padding: 0px;
@@ -68,20 +73,21 @@ header div img{
 }
 .main  ul {
     display: none ;
+
 }
 .main li {
     text-align: center;
     display: inline-block ;
     position:   relative;
-    border-style: solid;
-    border-color: #09699B;
+
+
 }
 .main a {
     display: block ;
     width: auto;
     height: 30px;
     line-height: 30px;
-    padding: 1px 10px;
+    padding: 1px 30px;
     text-align: center;
 }
 .main li:hover ul {
@@ -103,8 +109,8 @@ header div img{
     font-size: 1.3rem;
 }
 .main li:hover a {
-    color: #fff; /* Couleur du texte du menu au survol */
-    
+    color: #e45533; /* Couleur du texte du menu au survol */
+
 }
 .main ul li {
     background-color: #ccc; /* Couleur d'arriere-plan des sous-menu */
@@ -154,21 +160,21 @@ p {
     font-size: 1.2rem;
 }
 .video-container {
-	position: relative;
-	padding-bottom: 56.25%;
-	padding-top: 30px;
-	height: 0;
-	overflow: hidden;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
 }
 
 .video-container iframe,  
 .video-container object,  
 .video-container embed {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -218,8 +224,8 @@ footer {
 }
 
 .active p{
-   padding-left : 50px;
-   padding-right: 50px;
+    padding-left : 50px;
+    padding-right: 50px;
 }
 .pad-top-30{
     padding-top: 30px;
