@@ -96,7 +96,7 @@ header div img{
 
 }
 .main li {
-    background-color: #FFFFFF; /* Couleur d'arriere-plan du menu */
+    background-color: #F1F9FC; /* Couleur d'arriere-plan du menu */
 }
 .main li a {
     color: #09699B; /* Couleur du texte du menu */
@@ -104,12 +104,13 @@ header div img{
 }
 .main li:hover a {
     color: #fff; /* Couleur du texte du menu au survol */
+    
 }
 .main ul li {
     background-color: #ccc; /* Couleur d'arriere-plan des sous-menu */
 }
 .main ul li:hover {
-    background-color: #000; /* Couleur d'arriere-plan des sous-menu au survol */ 
+    background-color: #F1F9FC;/* Couleur d'arriere-plan des sous-menu au survol */ 
 }
 .main ul li a {
     color: #666; /* Couleur du texte des sous-menu */
