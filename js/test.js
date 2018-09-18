@@ -1,4 +1,4 @@
-$('document').ready(function () {
+/*$('document').ready(function () {
 
     $('.bouton').click(function () {
         $('.main-navigation ul ').show();
@@ -18,5 +18,13 @@ $('document').ready(function () {
             $('.subMenu2').fadeToggle('500');
 
         });
+    });
+});*/
+
+jQuery(document).ready(function ($) {
+    
+    $('.bouton').click(function () {
+        $('.main-navigation ul').fadeToggle('500');
+
     });
 });
