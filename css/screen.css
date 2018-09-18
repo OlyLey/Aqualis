@@ -211,14 +211,17 @@ footer {
     margin: 30px auto 0;
 }
 
-/** page "ACTIVITES" de AngÃ©lique **/
+/** page "ACTIVITES" de Angelique **/
 .blue-h1{
     color: #96D5FD;
     text-align: center;
 }
-.pad-left-50{
-    padding-left: 50px;
+
+.active p{
+   padding-left : 50px;
+   padding-right: 50px;
 }
+
 /** page de Bill **/
 
 
