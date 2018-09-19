@@ -21,6 +21,9 @@ header div img{
 
 
 }
+li {
+    width: 12rem;
+}
 
 .main-navigation {
 
@@ -82,18 +85,22 @@ header div img{
 
 
 }
+.main li:hover {
+    background-color: #fff; /* Couleur d'arriere-plan des menu au survol */ 
+}
 .main a {
     display: block ;
     width: auto;
-    height: 30px;
-    line-height: 30px;
-    padding: 1px 30px;
+    height: 2rem;
+    line-height: 2rem;
+    padding: 0.2rem 0.2rem;
     text-align: center;
+    text-decoration: none;
 }
 .main li:hover ul {
     display: block ;
     position: absolute;
-    top: 30px;
+    top: 2rem;
     left: 0px;
     z-index: 100;
 }
@@ -134,7 +141,7 @@ header, .nav-principal{
 }
 
 .blue-font{
-    color: #96D5FD;
+    color: #09699B;
     padding: 50px;
 }
 
