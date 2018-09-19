@@ -2,10 +2,12 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     color: black;
-    background-color: white;
+    
     margin:0px;
     padding:0px;
 }
+
+
 
 
 /** Menu par Marc**/
@@ -214,7 +216,7 @@ footer {
 
 /** page "ACTIVITES" de Angelique **/
 .blue-h1{
-    color: #96D5FD;
+    color: #2094AB;
     text-align: center;
 }
 
