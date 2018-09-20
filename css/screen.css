@@ -26,11 +26,15 @@ header div img{
 
 }
 .vague {
+    display: block;
     top: -1rem;
     width: 100%;
     min-height: 10rem;
     position: relative;
     z-index: -1;
+}
+.vague_mobile {
+    display: none;
 }
 .logo_aqualis {
 
@@ -94,6 +98,15 @@ li {
         display: block;
     }
     .vague {
+        display: none;
+        top: -4rem;
+        width: 100%;
+        min-height: 10rem;
+        position: relative;
+        z-index: -1;
+    }
+        .vague_mobile {
+        display: block;
         top: -4rem;
         width: 100%;
         min-height: 10rem;
