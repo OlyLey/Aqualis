@@ -2,7 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     color: black;
-    
+
     margin:0px;
     padding:0px;
 
@@ -105,7 +105,7 @@ nav li {
         position: relative;
         z-index: -1;
     }
-        .vague_mobile {
+    .vague_mobile {
         display: block;
         top: -4rem;
         width: 100%;
@@ -219,7 +219,7 @@ nav li {
     color: #f00 ; /* Couleur du texte des sous-menu au survol */
 }
 
-/** page ACCUEIL de AngÃ©lique **/
+/** page ACCUEIL de AngÃƒÂ©lique **/
 
 header, .nav-principal{
     max-width: 100%;
@@ -276,7 +276,7 @@ p {
     li: 100%;
     text-align: center;
     font-size: 1.4rem;
-    
+
 }
 
 
@@ -310,11 +310,17 @@ footer {
 }
 .bas_de_page {
     display: block;
-    height: 80px;
+    height: 8rem;
     width: auto;
     text-align: center;
     background: #F1F9FC;
-    margin: 30px auto 0;
+    margin: 2rem auto 0;
+}
+.pub {
+    position: relative;
+    margin: 0px auto 0;
+    display: inline-block;
+
 }
 
 /** page "ACTIVITES" de Angelique **/
