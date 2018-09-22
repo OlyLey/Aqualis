@@ -9,11 +9,14 @@
         <link href="web-fonts-with-css/css/fontawesome-all.css" rel="stylesheet" type="text/css"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <script src="js/jquery/jquery-3.3.1.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap/bootstrap.js" type="text/javascript"></script>
         <script src="js/test.js" type="text/javascript"></script>
         <title>Accueil</title>
+
     </head>
 
     <body>
+
         <div class="container-fluid">
             <header>
                 <div>
@@ -38,8 +41,56 @@
                     </nav>
                 </div>
 
+
             </header>
+
         </div>
+        <!-- La mise en forme du contenu de la div via la classe .container
+        La classe .container permet de définir la largeur et la disposition du canevas de la page. -->
+        <div class="container"> 
+
+            <!-- exemple de popup -->
+            <p><button class="btn btn-primary btn-lg popup1" data-toggle="modal" data-target="#id-popup">Prêt d'outils</button></p>
+
+
+            <!-- construction de la popup 
+                  data-backdrop="false" pour supprimer le voile au-dessus de la popup
+                  data-keyboard="false" pour supprimer la touche Echap --> 
+            <div class="modal fade" id="id-popup" tabindex="-1" role="dialog" aria-labelledby="titrePopUp" aria-hidden="true"> 
+
+                <div class="modal-dialog"> 
+
+                    <div class="modal-content"> 
+
+                        <!-- le titre de la popup --> 
+                        <div class="modal-header"> 
+                            <h2 class="modal-title" id="titrePopUp">Prêt d'outils 
+                                <!-- lla croix de fermeture de la popup --> 
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button> </h2>
+                        </div> 
+
+                        <!-- le contenu HTML de la popup --> 
+                        <div class="modal-body"> 
+
+                            <p class="lead"><img src="images/aqualis_logo_L400.jpg" class="pull-right"/> Aqualis met à votre disposition des outils en prêt pour des petits dépannages. </p> 
+                            <h3><strong>Inventaire de la boite à outils:</strong></h3>
+                            <p>Ventouse<br>Marteau<br>Clé à évier(tubulaire)<br>Coupe-tube<br>Pince multicran<br>Clé à molette<br>Clé de purgeur<br>Scie à métaux<br>Mètres-ruban<br>Tournevis(6)<br>Clés plates(7)<br>Clés-Allen(8)</p> 
+                        </div>
+
+                        <!-- le pied de page de la popup --> 
+                        <div class="modal-footer"> 
+                            <a href="#" class="btn btn-primary pull-left">Reservation</a> 
+                        </div> 
+
+                    </div> 
+
+                </div> 
+
+            </div>
+
+        </div> 
+
+
 
 
         <div class="container-fluid">           
@@ -49,6 +100,7 @@
                 </div>
             </div>
         </div>
+
         <section class="row ambassadeur">
 
 
@@ -75,7 +127,7 @@
                         <embed src="hhttp://www.youtube.com/v/_etwz7NkemE&amp;hl=fr" type="application/x-shockwave-flash" wmode="transparent" width="425" height="355"></embed>
                     <![endif]-->
 
-            </div> 
+                </div> 
         </section> 
         <section class="row">
 
@@ -99,7 +151,7 @@
                     <h2 class="blue-font">Quel est le public visé ?</h2>
                     <p>Les personnes demandeuses d’asile, lorsqu’elles entrent dans les conditions, sont hébergées dans des Centres d’accueil de la Croix-Rouge ou de Fedasil. Ces lieux de vie communautaires proposent un accueil matériel, une prise en charge médico-sociale, ainsi qu’un accompagnement des personnes dans leur démarches quotidiennes par différents services : formation, accès à la culture, citoyenneté, etc.</p> 
                     <p>Le projet Aqualis propose aux demandeurs d’asile hébergés dans ces centres d’avoir accès à des informations concernant leur consommation d’eau et d’énergie actuelle mais aussi future, lorsqu’ils s’installeront dans un logement privé. Il s’inscrit dans le projet Dazibao, formation à l’après-centre et aux NTIC proposé par le Monde des Possibles. </p>
-                    
+
                 </div>
             </div>
 

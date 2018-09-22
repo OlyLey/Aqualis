@@ -54,6 +54,12 @@ nav li {
     width: 100%;
 
 }
+.popup1 {
+    position: absolute;
+    top: 12rem;
+    left: 4rem;
+    z-index: 100;
+}
 .ambassadeur {
     position: relative;
     top:-8rem;
