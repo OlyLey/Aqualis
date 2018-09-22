@@ -240,7 +240,7 @@ ul{
 }
 .blue-back{
     background-color: #F1F9FC;
-    margin: 50px;
+    margin:  20px 50px;
     text-align: center;
     height : 95%;
 }
@@ -283,6 +283,12 @@ p {
     width: 60%;
     margin: 0 auto;
 }
+.ambassadeur{
+    margin-top: 45px;
+    margin-bottom: -100px;
+    
+}
+
 /** page "Conseils" **/
 
 
