@@ -219,7 +219,7 @@ nav li {
     color: #f00 ; /* Couleur du texte des sous-menu au survol */
 }
 
-/** page ACCUEIL de AngÃƒÂ©lique **/
+/** page ACCUEIL de Angelique **/
 
 header, .nav-principal{
     max-width: 100%;
@@ -277,6 +277,11 @@ p {
     text-align: center;
     font-size: 1.4rem;
 
+}
+
+.public-photo{
+    width: 60%;
+    margin: 0 auto;
 }
 /** page "Conseils" **/
 
