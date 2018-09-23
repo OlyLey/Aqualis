@@ -306,8 +306,15 @@ p {
 }
 .ambassadeur{
     margin-top: 45px;
+<<<<<<< HEAD
     margin-bottom: -100px;
 
+=======
+    margin-bottom: -100px; 
+}
+.blue-goutte{
+    color: #03318b;
+>>>>>>> f40f8d70a79f0e899f1e4a3eca6bc317c647a043
 }
 
 /** page "Conseils" **/
