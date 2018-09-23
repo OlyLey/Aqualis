@@ -259,6 +259,17 @@ p {
     padding: 20px 10px;
     font-size: 1.2rem;
 }
+.floatLeft{
+    float:left;
+    margin: 50px 10px;
+    width: 63%; 
+}
+.p-14
+    font-size: 14px;
+}
+.clearFloat{
+    clear:both;
+}
 
 .video-container {
     position: relative;
@@ -286,7 +297,7 @@ p {
 }
 
 .public-photo{
-    width: 60%;
+    width: 55%;
     margin: 0 auto;
 }
 .ambassadeur{
