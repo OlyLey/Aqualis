@@ -274,10 +274,13 @@ p {
     padding: 20px 10px;
     font-size: 1.2rem;
 }
+.contenu-pop h3{
+    text-align: center;
+}
 .floatLeft{
     float:left;
     margin: 50px 10px;
-    width: 63%; 
+    width: 57%; 
 }
 .p-14
     font-size: 14px;
