@@ -291,8 +291,10 @@ p {
 }
 .ambassadeur{
     margin-top: 45px;
-    margin-bottom: -100px;
-    
+    margin-bottom: -100px; 
+}
+.blue-goutte{
+    color: #03318b;
 }
 
 /** page "Conseils" **/
