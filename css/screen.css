@@ -56,7 +56,7 @@ nav li {
 }
 .popup1 {
     position: absolute;
-    top: 12rem;
+    top: 13rem;
     left: 4rem;
     z-index: 100;
 }
@@ -142,9 +142,24 @@ nav li {
         width: 100%;
 
     }
+    .popup1 {
+        position: absolute;
+        top: 0rem;
+        left: 1rem;
+        z-index: 100;
+    }
     .ambassadeur {
         position: relative;
         top:-7rem;
+    }
+    .questions {
+        position: absolute;
+        top: 10rem;
+        z-index: 10000;
+    }
+    .menus {
+        display: inline-block;
+        z-index: 100;
     }
 }
 
@@ -292,7 +307,7 @@ p {
 .ambassadeur{
     margin-top: 45px;
     margin-bottom: -100px;
-    
+
 }
 
 /** page "Conseils" **/
