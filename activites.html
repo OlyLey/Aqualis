@@ -30,7 +30,7 @@
                         <button class="bouton"><i class="fas fa-bars"></i></button>
                         <ul class="main">
                             <li><h2><a href="accueil.html">Accueil</a></h2></li><!--
-                            --><li><h2><a href="activites.html">Activités</a></h2></li><!--
+                            --><li class="acta"><h2><a href="activites.html">Activités</a></h2></li><!--
                             --><li><h2><a href="documentation.html">Documentation</a></h2></li><!--
                             --><li><h2><a href="recommandations.html">Conseils</a></h2></li><!--
                             --><li><h2><a href="contact.html">Contact</a></h2></li>
@@ -40,128 +40,182 @@
 
             </header>
         </div>
-        <div>
+----
+
+        <!-- La mise en forme du contenu de la div via la classe .container
+        La classe .container permet de définir la largeur et la disposition du canevas de la page. -->
+        <div class="container"> 
+
+            <!-- exemple de popup -->
+            <p><button class="btn btn-primary btn-sm popup1" data-toggle="modal" data-target="#id-popup">Prêt d'outils</button></p>
+
+
+            <!-- construction de la popup 
+                  data-backdrop="false" pour supprimer le voile au-dessus de la popup
+                  data-keyboard="false" pour supprimer la touche Echap --> 
+            <div class="modal fade" id="id-popup" tabindex="-1" role="dialog" aria-labelledby="titrePopUp" aria-hidden="true"> 
+
+                <div class="modal-dialog"> 
+
+                    <div class="modal-content"> 
+
+                        <!-- le titre de la popup --> 
+                        <div class="modal-header"> 
+                            <h2 class="modal-title" id="titrePopUp">Prêt d'outils 
+                                <!-- lla croix de fermeture de la popup --> 
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button> </h2>
+                        </div> 
+
+                        <!-- le contenu HTML de la popup --> 
+                        <div class="modal-body"> 
+
+                            <p class="lead"><img src="images/aqualis_logo_L400.jpg" class="pull-right"/> Aqualis met à votre disposition des outils en prêt pour des petits dépannages. </p>
+                            <section class="contenu-pop">
+                                <h3><b>Inventaire de la boite à outils :</b></h3>
+
+                                <img src="images/bricolageOutil.png" alt="la boite à outils" title=" demandez la boite à outils" class="floatLeft"/>
+
+                                <p class="p-14">Ventouse<br>Marteau<br>Clé à évier(tubulaire)<br>Coupe-tube<br>Pince multicran<br>Clé à molette<br>Clé de purgeur<br>Scie à métaux<br>Mètre-ruban<br>Tournevis(6)<br>Clés plates(7)<br>Clés-Allen(8)</p> 
+                                <div class="clearFloat"></div>
+                            </section>
+                        </div>
+
+                        <!-- le pied de page de la popup --> 
+                        <div class="modal-footer"> 
+                            <a href="#" class="btn btn-primary pull-left">Reservation</a> 
+                        </div> 
+                    </div> 
+                </div> 
+            </div>
+        </div> 
+<!-- image d'illustration -->
+        <div class="container-fluid">           
+            <div>
+                <div class="energy">
+                    <img src="images/mountain arrid desert (3).png" alt=""/>
+                </div>
+            </div>
+        </div>
 
             <div class="row">
                 <div class="col-12">
                     <h1 class="blue-h1 pad-top-30">Les activitées proposées par Aqualis</h1>
-                <div  class='pad-left-50 text-center '>
-                    <p>Dans celles-ci vous trouverez notamment des <strong> astuces </strong> pour la récupétation des eaux de pluie ou l'usage rationnel de l'eau à l'intérieur de la maison.<br /> Vous trouverez également des trucs pour diminuer la consommation des radiateurs ou des appareils électriques. </p>
-                </div>
+                    <div  class='pad-left-50 text-center '>
+                        <p>Dans celles-ci vous trouverez notamment des <strong> astuces </strong> pour la récupétation des eaux de pluie ou l'usage rationnel de l'eau à l'intérieur de la maison.<br /> Vous trouverez également des trucs pour diminuer la consommation des radiateurs ou des appareils électriques. </p>
+                    </div>
                 </div>
 
             </div>
             <section class="row">
-                
-                    <div class="col-12 col-md-6">
-                        <div class="blue-back">
 
-                            <h2 class='blue-font '>Nos conférences</h2>
-                            <p>Elles s'adressent aux demandeurs d'asile ou aux stagiaires FLE <strong> de l'asbl Le Monde des Possibles </strong> avec qui nous sommes partenaires </p>
-                            <p>lorem ipsum </p>    
-                        </div>
-                    </div> 
-                    <div class="col-12 col-md-6">
-                        <div class="blue-back">
+                <div class="col-12 col-md-6">
+                    <div class="blue-back">
 
-                            <h2 class='blue-font'>Nos formations</h2>
-
-                            <p>Le projet Aqualis propose des séances d'informations et de formation à un usage respectueux de la nature et financièrement soutenable par rapport aux futures ressources des familles demandeuses d'asile, lorsqu'elles sortiront du Centre d'hébergement. Il s’agit d’améliorer significativement les conditions de vie des futurs réfugiés en les sensibilisant aux questions de précarité hydrique et de coût des énergies.</p>
-                            <div class="video-container">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/xXWDK-VykKw?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                            </div>
-                            <!--[if lte IE 6 ]>
-                                <embed src="hhttp://www.youtube.com/v/_etwz7NkemE&amp;hl=fr" type="application/x-shockwave-flash" wmode="transparent" width="425" height="355"></embed>
-                            <![endif]-->
-                        </div>
+                        <h2 class='blue-font '>Nos conférences</h2>
+                        <p>Elles s'adressent aux demandeurs d'asile ou aux stagiaires FLE <strong> de l'asbl Le Monde des Possibles </strong> avec qui nous sommes partenaires </p>
+                        <p>lorem ipsum </p>    
                     </div>
-                    <div class="col-12 col-md-6">
-                        <div class="blue-back">
+                </div> 
+                <div class="col-12 col-md-6">
+                    <div class="blue-back">
 
-                            <h2 class='blue-font'>Les témoignages</h2>
+                        <h2 class='blue-font'>Nos formations</h2>
 
-                            <p>De part leurs implications dans les ateliers, les visites guidées ou la participation aux conférences les apprenants ont pu mieux contrôler leur <strong> consommation d'énergie</strong>. Voici un témoignage .</p>
-                            <div class="video-container">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/xXWDK-VykKw?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                            </div>
-                            <!--[if lte IE 6 ]>
-                                <embed src="hhttp://www.youtube.com/v/_etwz7NkemE&amp;hl=fr" type="application/x-shockwave-flash" wmode="transparent" width="425" height="355"></embed>
-                            <![endif]-->
+                        <p>Le projet Aqualis propose des séances d'informations et de formation à un usage respectueux de la nature et financièrement soutenable par rapport aux futures ressources des familles demandeuses d'asile, lorsqu'elles sortiront du Centre d'hébergement. Il s’agit d’améliorer significativement les conditions de vie des futurs réfugiés en les sensibilisant aux questions de précarité hydrique et de coût des énergies.</p>
+                        <div class="video-container">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/xXWDK-VykKw?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                         </div>
-                    </div> 
-                    <div class="col-12 col-md-6">
-                        <div class="blue-back">
-
-                            <h2 class='blue-font '>Une visite guidée</h2>
-                            <p>Nos stagiaires auront la possibilité de visiter des "Lorem Ipsum" </p>
-                            <p>lorem ipsum </p>    
-                        </div>
-                    </div> 
-                </div>
-
-
-
-            </section> 
-            
-            <section class="row">
-
-            <div class="col-12 col-md-6">
-                <div class="blue-back">
-
-                    <h1 class='blue-font '>Prêt Outil</h1>
-                    <p>Grâce aux formations nos apprenants arrivent à colmater une fuite d'eau. Mais encore faut-il avoir les <strong> outils</strong> nécessaires</p>
-
-
-                    <div class="video-container">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/xXWDK-VykKw?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <!--[if lte IE 6 ]>
+                            <embed src="hhttp://www.youtube.com/v/_etwz7NkemE&amp;hl=fr" type="application/x-shockwave-flash" wmode="transparent" width="425" height="355"></embed>
+                        <![endif]-->
                     </div>
-                    <!--[if lte IE 6 ]>
-                        <embed src="hhttp://www.youtube.com/v/_etwz7NkemE&amp;hl=fr" type="application/x-shockwave-flash" wmode="transparent" width="425" height="355"></embed>
-                    <![endif]-->
-
                 </div>
+                <div class="col-12 col-md-6">
+                    <div class="blue-back">
+
+                        <h2 class='blue-font'>Les témoignages</h2>
+
+                        <p>De part leurs implications dans les ateliers, les visites guidées ou la participation aux conférences les apprenants ont pu mieux contrôler leur <strong> consommation d'énergie</strong>. Voici un témoignage .</p>
+                        <div class="video-container">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/xXWDK-VykKw?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        </div>
+                        <!--[if lte IE 6 ]>
+                            <embed src="hhttp://www.youtube.com/v/_etwz7NkemE&amp;hl=fr" type="application/x-shockwave-flash" wmode="transparent" width="425" height="355"></embed>
+                        <![endif]-->
+                    </div>
+                </div> 
+                <div class="col-12 col-md-6">
+                    <div class="blue-back">
+
+                        <h2 class='blue-font '>Une visite guidée</h2>
+                        <p>Nos stagiaires auront la possibilité de visiter des "Lorem Ipsum" </p>
+                        <p>lorem ipsum </p>    
+                    </div>
+                </div> 
+        </div>
 
 
-            </div> 
-            <div class="col-12 col-md-6">
-                <div class="blue-back">
 
-                    <h2 class='blue-font'>Liste des Outils</h2>
-                    
-                    <ul>
-                        <li>Ventouse</li>
-                        <li>Marteau</li>
-                        <li>Clé à évier</li>
-                        <li>Coupe-tube</li>
-                        <li>Pince multicran</li>
-                        <li>Clé à molette</li>
-                        <li>Clé de purgeur</li>
-                        <li>Scie à métaux</li>
-                        <li>Mètre ruban</li>
-                        <li>Tournevis</li>
-                        <p>Clés plates 7</p>
-                        <p>Clés Allen</p>
-                    </ul>
+    </section> 
+
+    <section class="row">
+
+        <div class="col-12 col-md-6">
+            <div class="blue-back">
+
+                <h1 class='blue-font '>Prêt Outil</h1>
+                <p>Grâce aux formations nos apprenants arrivent à colmater une fuite d'eau. Mais encore faut-il avoir les <strong> outils</strong> nécessaires</p>
+
+
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/xXWDK-VykKw?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 </div>
+                <!--[if lte IE 6 ]>
+                    <embed src="hhttp://www.youtube.com/v/_etwz7NkemE&amp;hl=fr" type="application/x-shockwave-flash" wmode="transparent" width="425" height="355"></embed>
+                <![endif]-->
+
             </div>
-        </section> 
-            
-            <!-- FOOTER avec les logos pour les BACKEND : ne pas oublier d'AJOUTER celui de la fondation Roi Baudoin -->
+
+
+        </div> 
+        <div class="col-12 col-md-6">
+            <div class="blue-back">
+
+                <h2 class='blue-font'>Liste des Outils</h2>
+
+                <ul>
+                    <li>Ventouse</li>
+                    <li>Marteau</li>
+                    <li>Clé à évier</li>
+                    <li>Coupe-tube</li>
+                    <li>Pince multicran</li>
+                    <li>Clé à molette</li>
+                    <li>Clé de purgeur</li>
+                    <li>Scie à métaux</li>
+                    <li>Mètre ruban</li>
+                    <li>Tournevis</li>
+
+                </ul>
+            </div>
+        </div>
+    </section> 
+
+    <!-- FOOTER avec les logos pour les BACKEND : ne pas oublier d'AJOUTER celui de la fondation Roi Baudoin -->
 
 
 
 
 
-            <footer >
+    <footer >
 
-                <div class="bas_de_page">
-                    <p><br>Le Monde des Possibles - Projet Aqualis</p>
-                </div>
+        <div class="bas_de_page">
+            <p><br>Le Monde des Possibles - Projet Aqualis</p>
+        </div>
 
-            </footer>
-
-
+    </footer>
 
 
-    </body>
+
+
+</body>
 </html>
