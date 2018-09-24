@@ -194,7 +194,7 @@ nav li {
 
 }
 .main li:hover {
-    background-color: #fff; /* Couleur d'arriere-plan des menu au survol */ 
+    background-color: rgba(0, 0, 255, 0.2); /* Couleur d'arriere-plan des menu au survol */ 
 }
 .main a {
     display: block ;
@@ -217,10 +217,13 @@ nav li {
 
 }
 .main li {
-    background-color: #F1F9FC; /* Couleur d'arriere-plan du menu */
+    background-color: none; /* Couleur d'arriere-plan du menu */
+}
+.acta {
+       background-color: rgba(0, 0, 255, 0.2); 
 }
 .main li a {
-    color: #09699B; /* Couleur du texte du menu */
+    color: #ffffff; /* Couleur du texte du menu */
     font-size: 1.3rem;
 }
 .main li:hover a {
@@ -319,11 +322,6 @@ p{
 }
 .ambassadeur{
     margin-top: 45px;
-<<<<<<< HEAD
-=======
-
-    margin-bottom: -100px;
->>>>>>> 0934aea6b3737d6032f42345df98333a7deead1c
 
 }
 .blue-goutte{
