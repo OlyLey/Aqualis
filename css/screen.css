@@ -48,7 +48,7 @@ nav li {
 }
 .energy {
     position: relative;
-    top: -5rem;
+    top: -14rem;
     margin: 0px auto 0;
     display: inline-block;
     width: 100%;
@@ -62,7 +62,7 @@ nav li {
 }
 .ambassadeur {
     position: relative;
-    top:-8rem;
+    top:-19rem;
 }
 .ciel_bleu {
     margin: -650px auto 0;
@@ -113,9 +113,9 @@ nav li {
     }
     .vague_mobile {
         display: block;
-        top: -4rem;
+        top: -1rem;
         width: 100%;
-        min-height: 10rem;
+        min-height: 8rem;
         position: relative;
         z-index: -1;
     }
@@ -128,7 +128,7 @@ nav li {
     }
     .energy {
         position: relative;
-        top: -3.5rem;
+        top: -8rem;
         margin: 0px auto 0;
         display: inline-block;
         width: 100%;
@@ -320,15 +320,11 @@ p {
 }
 .ambassadeur{
     margin-top: 45px;
-<<<<<<< HEAD
-    margin-bottom: -100px;
 
-=======
-    margin-bottom: -100px; 
 }
 .blue-goutte{
     color: #03318b;
->>>>>>> f40f8d70a79f0e899f1e4a3eca6bc317c647a043
+
 }
 
 /** page "Conseils" **/
