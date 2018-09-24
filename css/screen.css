@@ -312,7 +312,9 @@ p{
     height: 100%;
 }
 
-
+.gras-900{
+    font-weight: 900;
+}
 
 .public-photo{
     width: 55%;
