@@ -250,8 +250,9 @@ header, .nav-principal{
 
 .blue-font{
     color: #09699B;
-    padding: 50px;
+    padding: 50px 50px 0px 50px;
 }
+
 
 .dis-none{
     display: none;
@@ -268,9 +269,10 @@ ul{
 
 .blue-back h1{
     font-size: 2.1rem;
+    
 }
 
-p {
+p{
     padding: 20px 10px;
     font-size: 1.2rem;
 }
@@ -282,14 +284,14 @@ p {
     margin: 50px 10px;
     width: 57%; 
 }
-.p-14
+.p-14{
     font-size: 14px;
 }
 .clearFloat{
     clear:both;
 }
 
-.video-container {
+.video-container{
     position: relative;
     padding-bottom: 56.25%;
     padding-top: 30px;
@@ -307,12 +309,7 @@ p {
     height: 100%;
 }
 
-.public{
-    li: 100%;
-    text-align: center;
-    font-size: 1.4rem;
 
-}
 
 .public-photo{
     width: 55%;
@@ -320,15 +317,13 @@ p {
 }
 .ambassadeur{
     margin-top: 45px;
-<<<<<<< HEAD
+
     margin-bottom: -100px;
 
-=======
-    margin-bottom: -100px; 
 }
 .blue-goutte{
     color: #03318b;
->>>>>>> f40f8d70a79f0e899f1e4a3eca6bc317c647a043
+
 }
 
 /** page "Conseils" **/
