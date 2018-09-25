@@ -64,6 +64,10 @@ nav li {
     position: relative;
     top:-19rem;
 }
+.essai {
+    position: relative;
+    top:10rem;
+}
 .ciel_bleu {
     margin: -650px auto 0;
     display: inline-block;
@@ -163,7 +167,8 @@ nav li {
     }
 }
 
-
+    /*fin de @media screen and (max-width: 640px) */
+    
 .main {
     position: relative;
     top: -1rem;
@@ -394,4 +399,6 @@ footer {
 
 /** page de Bill **/
 
+
+/** page essai a propos **/
 
