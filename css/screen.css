@@ -52,7 +52,13 @@ nav li {
     margin: 0px auto 0;
     display: inline-block;
     width: 100%;
+}
+.accueil_contenu {
+    position: relative;
+    top: -12rem;
+    margin: 0px auto 0;
 
+    width: 100%;
 }
 .popup1 {
     position: absolute;
@@ -63,7 +69,7 @@ nav li {
 .ambassadeur {
     position: relative;
     top:-19rem;
-    
+
 }
 .essai {
     position: relative;
@@ -161,7 +167,7 @@ nav li {
         position: absolute;
         top: 10rem;
         z-index: 10000;
-       
+
     }
     .menus {
         display: inline-block;
@@ -169,8 +175,8 @@ nav li {
     }
 }
 
-    /*fin de @media screen and (max-width: 640px) */
-    
+/*fin de @media screen and (max-width: 640px) */
+
 .main {
     position: relative;
     top: -1rem;
@@ -227,7 +233,7 @@ nav li {
     background-color: none; /* Couleur d'arriere-plan du menu */
 }
 .acta {
-       background-color: rgba(0, 0, 255, 0.2); 
+    background-color: rgba(0, 0, 255, 0.2); 
 }
 .main li a {
     color: #ffffff; /* Couleur du texte du menu */
@@ -271,6 +277,16 @@ ul{
     text-decoration: none;
 }
 .blue-back{
+    position: relative;
+    top: -5rem;
+    background-color: #F1F9FC;
+    margin:  20px 50px;
+    text-align: center;
+    height : 95%;
+}
+.blue-back2{
+    position: relative;
+    top: -15rem;
     background-color: #F1F9FC;
     margin:  20px 50px;
     text-align: center;
@@ -279,7 +295,7 @@ ul{
 
 .blue-back h1{
     font-size: 2.1rem;
-    
+
 }
 
 p{
@@ -337,8 +353,12 @@ p{
 }
 
 /** page "Conseils" **/
+.foire {
+    position: relative;
+    top: -5rem;
+}
 .margin-top{
-     margin-top: -19rem;
+    margin-top: -19rem;
 }
 .margin-bottom{
     margin-bottom: 3rem;
@@ -368,11 +388,21 @@ img
     background-color: #F1F9FC; 
 }
 
+/** Page contact**/
+
+.formul {
+    position: relative;
+    top: -15rem;
+}
+
 /** Footer de marc **/
 footer {
     margin: 50px;
 }
+
 .bas_de_page {
+    position: relative;
+    top: -5rem;
     display: block;
     height: 8rem;
     width: auto;
