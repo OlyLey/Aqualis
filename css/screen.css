@@ -63,6 +63,7 @@ nav li {
 .ambassadeur {
     position: relative;
     top:-19rem;
+    
 }
 .essai {
     position: relative;
@@ -160,6 +161,7 @@ nav li {
         position: absolute;
         top: 10rem;
         z-index: 10000;
+       
     }
     .menus {
         display: inline-block;
@@ -335,7 +337,12 @@ p{
 }
 
 /** page "Conseils" **/
-
+.margin-top{
+     margin-top: -19rem;
+}
+.margin-bottom{
+    margin-bottom: 3rem;
+}
 
 /** page "Contact" de Marc **/
 .flotte 
