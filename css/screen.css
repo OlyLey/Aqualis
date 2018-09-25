@@ -256,8 +256,14 @@ nav li {
     color: #f00 ; /* Couleur du texte des sous-menu au survol */
 }
 
-/** page ACCUEIL de Angelique **/
+/** page Documentation **/
 
+.docu1 {
+    position: relative;
+    top: -5rem;
+}
+
+/** page ACCUEIL de Angelique **/
 header, .nav-principal{
     max-width: 100%;
     margin: 0 auto;
