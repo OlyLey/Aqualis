@@ -60,7 +60,7 @@ nav li {
 
     width: 100%;
 }
-.popup1 {
+.popup_pret_outils {
     position: absolute;
     top: 13rem;
     left: 4rem;
@@ -73,7 +73,7 @@ nav li {
 }
 .essai {
     position: relative;
-    top:10rem;
+    top: 5rem;
 }
 .ciel_bleu {
     margin: -650px auto 0;
@@ -284,7 +284,7 @@ ul{
 }
 .blue-back{
     position: relative;
-    top: -5rem;
+    top: -12rem;
     background-color: #F1F9FC;
     margin:  20px 50px;
     text-align: center;
@@ -301,6 +301,7 @@ ul{
 
 .blue-back h1{
     font-size: 2.1rem;
+    
 
 }
 
@@ -357,8 +358,16 @@ p{
     color: #03318b;
 
 }
+.accueil_contenu {
+    position: relative;
+
+    top: -10rem;
+    width: 30rem;
+
+}
 
 /** page "Conseils" **/
+
 .foire {
     position: relative;
     top: -5rem;
@@ -424,6 +433,16 @@ footer {
 }
 
 /** page "ACTIVITES" de Angelique **/
+.activa {
+    position: relative;
+    top:-12rem;
+
+}
+.activa2 {
+    position: relative;
+    top:-1rem;
+
+}
 .blue-h1{
     color: #2094AB;
     text-align: center;
