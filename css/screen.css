@@ -367,8 +367,12 @@ p{
 }
 
 /** page "Conseils" **/
+<<<<<<< HEAD
 
 .foire {
+=======
+.foire{
+>>>>>>> 3976ad39b4407b2739f142c0ef3c31a23a910cdc
     position: relative;
     top: -5rem;
 }
@@ -379,6 +383,14 @@ p{
     margin-bottom: 3rem;
 }
 
+.card-link{
+    color: #fff;
+    background-color: #1594aa;
+    font-weight: bolder;
+}
+.card-header{
+    background-color: #1594aa;
+}
 /** page "Contact" de Marc **/
 .flotte 
 {
@@ -446,6 +458,7 @@ footer {
 .blue-h1{
     color: #2094AB;
     text-align: center;
+    margin-top: 2.3rem;
 }
 
 .active p{
