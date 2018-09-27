@@ -53,6 +53,14 @@ nav li {
     display: inline-block;
     width: 100%;
 }
+    .energy2 {
+        position: relative;
+        top: -9.5rem;
+        margin: 0px auto 0;
+        display: inline-block;
+        width: 100%;
+        z-index: -1;
+    }
 .accueil_contenu {
     position: relative;
     top: -12rem;
@@ -145,6 +153,7 @@ nav li {
         width: 100%;
         z-index: -1;
     }
+
     .machine {
 
         display: block;
@@ -180,7 +189,7 @@ nav li {
 .main {
     position: relative;
     top: -1rem;
-    background-color: white ;
+
     text-align: center;
 
 
@@ -373,6 +382,10 @@ p{
 }
 
 /** page "Conseils" **/
+.eau_gaz_elect {
+    position: relative;
+    top: -10rem;
+}
 
 .foire{
 
@@ -395,10 +408,7 @@ p{
     background-color: #1594aa;
 }
 /** page "Contact" de Marc **/
-.flotte 
-{
-    float:right;
-}    
+
 img
 {
     padding-bottom: 30px;
