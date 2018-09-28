@@ -396,7 +396,7 @@ p{
     margin-bottom: 3rem;
 }
 
-.energies{
+.energies{                       /* Icônes d'ENERGIES' */
     width: 4rem;
     height: 4rem;
     display: inline-block;
@@ -412,21 +412,21 @@ p{
     background-color: #03318b;
 }
 .tint:hover{
-    color: #03318b;
+    color: #de5a39;
     background-color: inherit;
 }
 .gripfire{
     background-color: #1894ac;
 }
 .gripfire:hover{
-    color: #1894ac;
+    color: #de5a39;
     background-color: inherit;
 }
 .bolt{
     background-color: #de5a39;
 }
 .bolt:hover{
-    color: #1894ac;
+    color: #de5a39;
     background-color: inherit;
 }
 .card-link{
