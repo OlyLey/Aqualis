@@ -112,6 +112,8 @@ nav li {
     z-index: 100; 
 }
 
+
+
 @media screen and (max-width: 640px) {
     .main-navigation .bouton {
         display: block; } 
@@ -191,9 +193,8 @@ nav li {
     top: -1rem;
 
     text-align: center;
-
-
 }
+
 .main,
 .main  ul {
     /*border-style: solid;
@@ -201,9 +202,8 @@ nav li {
     list-style-type: none ; 
     margin: 0px;
     padding: 0px;
-
-
 }
+
 .main  ul {
     display: none ;
 
@@ -241,6 +241,7 @@ nav li {
 .main li {
     background-color: none; /* Couleur d'arriere-plan du menu */
 }
+
 .acta {
     background-color: rgba(0, 0, 255, 0.2); 
 }
@@ -265,6 +266,7 @@ nav li {
     color: #f00 ; /* Couleur du texte des sous-menu au survol */
 }
 
+
 /** page Documentation **/
 
 .docu1 {
@@ -276,15 +278,12 @@ nav li {
 header, .nav-principal{
     max-width: 100%;
     margin: 0 auto;
-
 }
 
 .blue-font{
     color: #fff;
     padding: 5px 50px 0px 50px;
 }
-
-
 .dis-none{
     display: none;
 }
@@ -386,9 +385,7 @@ p{
     position: relative;
     top: -10rem;
 }
-
 .foire{
-
     position: relative;
     top: -5rem;
 }
@@ -399,6 +396,39 @@ p{
     margin-bottom: 3rem;
 }
 
+.energies{
+    width: 4rem;
+    height: 4rem;
+    display: inline-block;
+    color: #fff;
+    border-radius: 1rem;
+    text-align: center;
+    line-height: 4rem;
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    transition: all 0.2s ease;
+}
+.tint{
+    background-color: #03318b;
+}
+.tint:hover{
+    color: #03318b;
+    background-color: inherit;
+}
+.gripfire{
+    background-color: #1894ac;
+}
+.gripfire:hover{
+    color: #1894ac;
+    background-color: inherit;
+}
+.bolt{
+    background-color: #de5a39;
+}
+.bolt:hover{
+    color: #1894ac;
+    background-color: inherit;
+}
 .card-link{
     color: #fff;
     background-color: #1594aa;
