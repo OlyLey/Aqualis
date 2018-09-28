@@ -414,13 +414,16 @@ p{
 .tint:hover{
     color: #de5a39;
     background-color: inherit;
+    font-size: 3rem;
 }
 .gripfire{
     background-color: #1894ac;
+    
 }
 .gripfire:hover{
     color: #de5a39;
     background-color: inherit;
+    font-size: 3rem;
 }
 .bolt{
     background-color: #de5a39;
@@ -428,6 +431,7 @@ p{
 .bolt:hover{
     color: #de5a39;
     background-color: inherit;
+    font-size: 3rem;
 }
 .card-link{
     color: #fff;
