@@ -9,7 +9,7 @@ body {
 }
 
 
-
+/** erreur ds "header div img"  =>     max-height: 12.5rem; */
 
 /** Menu par Marc**/
 
@@ -19,7 +19,7 @@ ol, ul {
 header div img{
 
     display: block;
-    max-height: 12.5rem;
+
 
     margin: 2rem auto 0;
 
@@ -48,30 +48,23 @@ nav li {
 }
 .energy {
     position: relative;
-    top: -9.5rem;
+    top: -3rem;
     margin: 0px auto 0;
-    display: inline-block;
+    display: block;
     width: 100%;
 }
-    .energy2 {
-        position: relative;
-        top: -9.5rem;
-        margin: 0px auto 0;
-        display: inline-block;
-        width: 100%;
-        z-index: -1;
-    }
-.accueil_contenu {
-    position: relative;
-    top: -12rem;
-    margin: 0px auto 0;
 
-    width: 100%;
+.eco_conso {
+    position: relative;
+    top: -4.5rem;
+    margin: 0px auto 0;
+    display: block;
+    width: 30%;
 }
 .popup_pret_outils {
     position: absolute;
-    top: 13rem;
-    left: 4rem;
+    top: 1rem;
+    left: 2rem;
     z-index: 100;
 }
 .ambassadeur {
@@ -216,7 +209,7 @@ nav li {
 
 }
 .main li:hover {
-    background-color: rgba(0, 0, 255, 0.2); /* Couleur d'arriere-plan des menu au survol */ 
+    background-color: rgba(0, 0, 255, 0.3); /* Couleur d'arriere-plan des menu au survol */ 
 }
 .main a {
     display: block ;
@@ -242,7 +235,7 @@ nav li {
     background-color: none; /* Couleur d'arriere-plan du menu */
 }
 .acta {
-    background-color: rgba(0, 0, 255, 0.2); 
+    background-color: rgba(0, 0, 255, 0.3); 
 }
 .main li a {
     color: #ffffff; /* Couleur du texte du menu */
@@ -269,7 +262,7 @@ nav li {
 
 .docu1 {
     position: relative;
-    top: -5rem;
+    top: -4rem;
 }
 
 /** page ACCUEIL de Angelique **/
@@ -283,6 +276,9 @@ header, .nav-principal{
     color: #fff;
     padding: 5px 50px 0px 50px;
 }
+.titre_faq {
+       color: #09699B; 
+}
 
 
 .dis-none{
@@ -293,20 +289,21 @@ ul{
 }
 .blue-back{
     position: relative;
-    top: -12rem;
+    top: -6rem;
     background-color: #F1F9FC;
     margin:  20px 50px;
     text-align: center;
     height : 95%;
 }
+    /** inutile pour l'instant 
 .blue-back2{
     position: relative;
-    top: -15rem;
+    top: -7rem;
     background-color: #F1F9FC;
     margin:  20px 50px;
     text-align: center;
     height : 95%;
-}
+}**/
 
 .blue-back h1{
     font-size: 2.1rem;
@@ -376,7 +373,7 @@ p{
 .accueil_contenu {
     position: relative;
 
-    top: -10rem;
+    top: 22rem;
     width: 30rem;
 
 }
@@ -384,16 +381,16 @@ p{
 /** page "Conseils" **/
 .eau_gaz_elect {
     position: relative;
-    top: -10rem;
+    top: -4rem;
 }
 
 .foire{
 
     position: relative;
-    top: -5rem;
+    top: -8rem;
 }
 .margin-top{
-    margin-top: -19rem;
+    margin-top: -8rem;
 }
 .margin-bottom{
     margin-bottom: 3rem;
@@ -432,7 +429,7 @@ img
 
 .formul {
     position: relative;
-    top: -15rem;
+    top: -5rem;
 }
 
 /** Footer de marc **/
@@ -460,7 +457,7 @@ footer {
 /** page "ACTIVITES" de Angelique **/
 .activa {
     position: relative;
-    top:-12rem;
+    top:-8rem;
 
 }
 .activa2 {

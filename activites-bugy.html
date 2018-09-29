@@ -8,64 +8,116 @@
         <link href="web-fonts-with-css/css/fontawesome-all.css" rel="stylesheet" type="text/css"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <script src="js/jquery/jquery-3.3.1.min.js" type="text/javascript"></script>
-        <script src="js/bootstrap/bootstrap.js" type="text/javascript"></script>
+        <script src="js/bootstrap/bootstrap.js" type="text/javascript"></script>        
         <script src="js/test.js" type="text/javascript"></script>
         <link href="css/screen.css" rel="stylesheet" media="all" type="text/css">
 
-        <title>Accueil</title>
+        <title>Activités</title>
 
     </head>
     <body>
-        <header>
-            <div class="container-fluid">
+            <header>
+        <div class="container-fluid">
+
                 <div class="row">
                     <div class="col-12 col-md-12 col-lg-12">
-                        <!-- logo Aqualis -->
-                        <img class="vague" src="images/logo_aqualis/wavelogo3couleurs80.png" alt=""/>
-                        <img class="logo_aqualis" src="images/logo_aqualis/aqualis_logo_extrudeH180.png" alt=""/>
-                        <img  class="vague_mobile" src="images/wave_logo_V3c640.gif" alt=""/>
+                        <div class="main-navigation">
+                            <div>
+                                <img  class="vague" src="images/wave_logo_V3c.gif" alt=""/> 
+                                <img  class="vague_mobile" src="images/wave_logo_V3c640.gif" alt=""/>
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="col-12 col-md-12 col-lg-12">
-                        <div class="main-navigation ">
-                            <!-- bouton hamburger -->
+
+                    <nav class="col-12 col-md-12 col-lg-12">
+                        <div class="main-navigation">
                             <div>
                                 <button  class="bouton"><i class="fas fa-bars"></i></button>
                             </div>
-                            <nav>
-                                <ul class="main">
-                                    <!-- menu de la page -->
-                                    <li><a href="accueil.html">Accueil</a></li><!--
-                                    --><li class="acta"><a href="activites.html">Activités</a></li><!--
-                                    --><li><a href="documentation.html">Documentation</a></li><!--
-                                    --><li><a href="conseils.html">Conseils</a></li><!--
-                                    --><li><a href="contact.html">Contacts</a></li>
-                                </ul>
-                            </nav>
+                            <ul class="main">
+                                <li><a href="accueil.html">Accueil</a></li><!--
+                                --><li class="acta"><a href="activites.html">Activités</a></li><!--
+                                --><li><a href="documentation.html">Documentation</a></li><!--
+                                --><li><a href="conseils.html">Conseils</a></li><!--
+                                --><li><a href="contact.html">Contacts</a></li>
+                            </ul>
                         </div>
+
+                    </nav>
+
+                </div>
+
+
+                <!-- La mise en forme du contenu de la div via la classe .container
+                La classe .container permet de définir la largeur et la disposition du canevas de la page. -->
+
+
+
+                <!-- La mise en forme du contenu de la div via la classe .container
+                La classe .container permet de définir la largeur et la disposition du canevas de la page. -->
+
+
+                <!-- exemple de popup -->
+                <div class="popup_pret_outils"><button class="btn btn-primary btn-sm " data-toggle="modal" data-target="#id-popup">Prêt d'outils</button></div>
+
+
+                <!-- construction de la popup 
+                      data-backdrop="false" pour supprimer le voile au-dessus de la popup
+                      data-keyboard="false" pour supprimer la touche Echap --> 
+                <div class="modal fade" id="id-popup" tabindex="-1" role="dialog" aria-labelledby="titrePopUp" aria-hidden="true"> 
+
+                    <div class="modal-dialog"> 
+
+                        <div class="modal-content"> 
+
+                            <!-- le titre de la popup --> 
+                            <div class="modal-header"> 
+                                <h2 class="modal-title" id="titrePopUp">Prêt d'outils 
+                                    <!-- lla croix de fermeture de la popup --> 
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button> </h2>
+                            </div> 
+
+                            <!-- le contenu HTML de la popup --> 
+                            <div class="modal-body"> 
+
+                                <p class="lead"><img src="images/aqualis_logo_L400.jpg" class="pull-right"/> Aqualis met à votre disposition des outils en prêt pour des petits dépannages. </p>
+                                <section class="contenu-pop">
+                                    <h3><b>Inventaire de la boite à outils :</b></h3>
+
+                                    <img src="images/bricolageOutil.png" alt="la boite à outils" title=" demandez la boite à outils" class="floatLeft"/>
+
+                                    <p class="p-14">Ventouse<br>Marteau<br>Clé à évier(tubulaire)<br>Coupe-tube<br>Pince multicran<br>Clé à molette<br>Clé de purgeur<br>Scie à métaux<br>Mètre-ruban<br>Tournevis(6)<br>Clés plates(7)<br>Clés-Allen(8)</p> 
+                                    <div class="clearFloat"></div>
+                                </section>
+                            </div>
+
+                            <!-- le pied de page de la popup --> 
+                            <div class="modal-footer"> 
+                                <a href="#" class="btn btn-primary pull-left">Reservation</a> 
+                            </div> 
+                        </div> 
+                    </div> 
+                </div>
+
+
+
+        </div> 
+            </header>
+                            <!-- image d'illustration -->
+            <div class="energy2">
+                <div class='row'>
+                    <div class=" col-12 col-md-12 col-lg-12">
+
+                        <img src="images/entete/activite.png" alt=""/>
                     </div>
                 </div>
-                <!-- bouton pret d'outils -->
-                <div class="popup_pret_outils">
-                    <button class="btn btn-primary btn-sm " data-toggle="modal" data-target="#id-popup">Prêt d'outils</button>
-                </div>
             </div>
-        </header>
- 
+
         <!-- Contenu de la page -->
         <div class="container-fluid">
-            <div class="row">
-                <!-- image d'illustration -->
-                <div class='col-12 col-md-12 col-lg-12'>
-                    <img class="energy" src="images/entete/activites_station_epuration4.jpg" alt=""/>
-                </div>
-                <!-- image "ECO CONSOMATION"
-                <div class='col-12 col-md-12 col-lg-12'>
-                    <img class="eco_conso" src="images/ECO CONSO.jpg" alt=""/>
-                </div> -->
-            </div>
             <section class="row">
-                <div class="col-12 col-md-12 col-lg-12">
+                <div class="col-12">
                     <div class="activa">
 
                         <h1 class="blue-h1 pad-top-30">Les activitées proposées par Aqualis</h1>
@@ -77,17 +129,20 @@
                 </div>
             </section>
 
+
             <section class="row">
                 <div class="col-12 col-md-6 col-lg-6">
-                    <div class="blue-back">
-                        <div class="rect_bleu">
-                            <h2 class='blue-font '>Nos animations-conférences</h2>
+                    <div class="">
+                        <div class="blue-back">
+                            <div class="rect_bleu">
+                                <h2 class='blue-font '>Nos animations-conférences</h2>
+                            </div>
+                            <p>Elles s'adressent principalement aux demandeurs d'asile ainsi qu'aux stagiaires FLE de l'asbl<strong> Le Monde des Possibles </strong> avec qui nous sommes partenaires. </p>
+                            <p>Grâce à l'intervention de l'asbl ECOCONSO pour les aspects plus techniques, les apprenants peuvent bénéficier d'astuces et <strong>bonnes pratiques </strong>pour la gestion de l'eau au niveau de leur logement. </p>    
+                            <p>lorem ipsum </p>    
+                            <p>lorem ipsum </p>    
                         </div>
-                        <p>Elles s'adressent principalement aux demandeurs d'asile ainsi qu'aux stagiaires FLE de l'asbl<strong> Le Monde des Possibles </strong> avec qui nous sommes partenaires. </p>
-                        <p>Grâce à l'intervention de l'asbl ECOCONSO pour les aspects plus techniques, les apprenants peuvent bénéficier d'astuces et <strong>bonnes pratiques </strong>pour la gestion de l'eau au niveau de leur logement. </p>    
-                        <p>lorem ipsum </p>    
-                        <p>lorem ipsum </p>    
-                    </div>
+                    </div> 
                 </div>
                 <div class="col-12 col-md-6 col-lg-6">
                     <div class="blue-back">
@@ -173,15 +228,14 @@
                     </div>
                 </section> 
             </div> -->
-        </div>
-        <!-- FOOTER avec les logos  -->
 
-        <footer >
-            <div class="bas_de_page">
-                <div class="container-fluid">
+            <!-- FOOTER avec les logos pour les BACKEND : ne pas oublier d'AJOUTER celui de la fondation Roi Baudoin -->
+
+            <footer >
+                <div class="bas_de_page">
                     <div class="row">
-                        <div class="pub">
-                            <div class="col-12">
+                        <div class="col-12">
+                            <div class="pub">
                                 <img class="col-3" src="images/cropped-sirius-logo-trans.jpg" alt=""/>
                                 <img class="col-2" src="images/digital-belgium.jpg" alt=""/>
                                 <img class="col-4" src="images/Logos-MdP-long-web.jpg" alt=""/>
@@ -190,51 +244,10 @@
                     </div>
                     <p><br>Le Monde des Possibles - Projet Aqualis</p>
                 </div>
-            </div>
+            </footer>
 
-        </footer>
-        <!-- fin du FOOTER -->
 
-        <!-- debut Pop  -->
 
-        <!-- construction de la popup 
-              data-backdrop="false" pour supprimer le voile au-dessus de la popup
-              data-keyboard="false" pour supprimer la touche Echap --> 
-        <div class="modal fade" id="id-popup" tabindex="-1" role="dialog" aria-labelledby="titrePopUp" aria-hidden="true"> 
 
-            <div class="modal-dialog"> 
-
-                <div class="modal-content"> 
-
-                    <!-- le titre de la popup --> 
-                    <div class="modal-header"> 
-                        <h2 class="modal-title" id="titrePopUp">Prêt d'outils 
-                            <!-- lla croix de fermeture de la popup --> 
-                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button> </h2>
-                    </div> 
-
-                    <!-- le contenu HTML de la popup --> 
-                    <div class="modal-body"> 
-
-                        <p class="lead"><img src="images/aqualis_logo_L400.jpg" class="pull-right"/> Aqualis met à votre disposition des outils en prêt pour des petits dépannages. </p>
-                        <section class="contenu-pop">
-                            <h3><b>Inventaire de la boite à outils :</b></h3>
-
-                            <img src="images/bricolageOutil.png" alt="la boite à outils" title=" demandez la boite à outils" class="floatLeft"/>
-
-                            <p class="p-14">Ventouse<br>Marteau<br>Clé à évier(tubulaire)<br>Coupe-tube<br>Pince multicran<br>Clé à molette<br>Clé de purgeur<br>Scie à métaux<br>Mètre-ruban<br>Tournevis(6)<br>Clés plates(7)<br>Clés-Allen(8)</p> 
-                            <div class="clearFloat"></div>
-                        </section>
-                    </div>
-
-                    <!-- le pied de page de la popup --> 
-                    <div class="modal-footer"> 
-                        <a href="#" class="btn btn-primary pull-left">Reservation</a> 
-                    </div> 
-                </div> 
-            </div> 
-        </div>
-                <!-- fin Pop  -->
     </body>
-
 </html>
