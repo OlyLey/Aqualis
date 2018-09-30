@@ -107,79 +107,6 @@ nav li {
 
 
 
-@media screen and (max-width: 640px) {
-    .main-navigation .bouton {
-        display: block; } 
-    .main {
-        display: none;
-    }
-    .main-navigation .bouton {
-        text-align: right;
-        display: block;
-    }
-    .vague {
-        display: none;
-        top: -4rem;
-        width: 100%;
-        min-height: 10rem;
-        position: relative;
-        z-index: -1;
-    }
-    .vague_mobile {
-        display: block;
-        top: -1rem;
-        width: 100%;
-        min-height: 8rem;
-        position: relative;
-        z-index: -1;
-    }
-    .logo_aqualis {
-
-        display: block;
-        max-width: 50%;
-        margin: -9.5rem auto 0;
-        z-index: 100;
-    }
-    .energy {
-        position: relative;
-        top: -8rem;
-        margin: 0px auto 0;
-        display: inline-block;
-        width: 100%;
-        z-index: -1;
-    }
-
-    .machine {
-
-        display: block;
-        margin: -1rem auto 0;
-        z-index: 100;
-        width: 100%;
-
-    }
-    .popup1 {
-        position: absolute;
-        top: 0rem;
-        left: 1rem;
-        z-index: 100;
-    }
-    .ambassadeur {
-        position: relative;
-        top:-7rem;
-    }
-    .questions {
-        position: absolute;
-        top: 10rem;
-        z-index: 10000;
-
-    }
-    .menus {
-        display: inline-block;
-        z-index: 100;
-    }
-}
-
-/*fin de @media screen and (max-width: 640px) */
 
 .main {
     position: relative;
@@ -534,6 +461,86 @@ footer {
     margin: 0px auto 0;
     display: inline-block;
 }
+@media screen and (max-width: 640px) {
+    .main-navigation .bouton {
+        display: block; 
+    }
+    .bouton {
+        margin-top: -2rem;
+    }
+    .main {
+        display: none;
+    }
+    .main-navigation .bouton {
+        text-align: right;
+        display: block;
+    }
+    .vague {
+        display: none;
+        top: -4rem;
+        width: 100%;
+        min-height: 10rem;
+        position: relative;
+        z-index: -1;
+    }
+    .vague_mobile {
+        display: block;
+        top: 2.5rem;
+        width: 100%;
+        min-height: 8rem;
+        position: relative;
+        z-index: -1;
+    }
+    .logo_aqualis {
+
+        display: block;
+        max-width: 50%;
+        margin: -9.5rem auto 0;
+        z-index: 100;
+    }
+    .blue-back {
+        top: -5rem;
+    }
+    .energy {
+        position: relative;
+        top: 1rem;
+        margin: 0px auto 0;
+        display: inline-block;
+        width: 100%;
+        z-index: -1;
+    }
+
+    .machine {
+
+        display: block;
+        margin: -1rem auto 0;
+        z-index: 100;
+        width: 100%;
+
+    }
+    .popup1 {
+        position: absolute;
+        top: 0rem;
+        left: 1rem;
+        z-index: 100;
+    }
+    .ambassadeur {
+        position: relative;
+        top:-7rem;
+    }
+    .questions {
+        position: absolute;
+        top: 10rem;
+        z-index: 10000;
+
+    }
+    .menus {
+        display: inline-block;
+        z-index: 100;
+    }
+}
+
+/*fin de @media screen and (max-width: 640px) */
 
 
 
