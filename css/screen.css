@@ -307,8 +307,9 @@ ul{
 
 .blue-back h1{
     font-size: 2.1rem;
-
-
+}
+.blue-back h3{
+    margin-top: 1.3rem;
 }
 .rect_bleu {
     width: 100%;
@@ -473,12 +474,14 @@ p{
     background-color: #1594aa;
 }
 
+
 /** page Documentation **/
 
 .docu1 {
     position: relative;
     top: -4rem;
 }
+
 
 /** page "Contact" de Marc **/
 
