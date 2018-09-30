@@ -260,14 +260,7 @@ nav li {
 }
 
 
-/** page Documentation **/
-
-.docu1 {
-    position: relative;
-    top: -4rem;
-}
-
-/** page ACCUEIL de Angelique **/
+/** page ACCUEIL  Angelique **/
 header, .nav-principal{
     max-width: 100%;
     margin: 0 auto;
@@ -364,6 +357,9 @@ p{
 .gras-900{
     font-weight: 900;
 }
+.gras-800{
+    font-weight: 800;
+}
 
 .public-photo{
     width: 55%;
@@ -383,6 +379,34 @@ p{
     top: 22rem;
     width: 30rem;
 
+}
+
+/** page "ACTIVITES" de Angelique **/
+.activa {
+    position: relative;
+    top:-8rem;
+
+}
+.activa2 {
+    position: relative;
+    top:-1rem;
+
+}
+.blue-h1{
+    color: #2094AB;
+    text-align: center;
+    margin-top: 2.3rem;
+}
+
+.active p{
+    padding-left : 50px;
+    padding-right: 50px;
+}
+.pad-top-30{
+    padding-top: 30px;
+}
+.text-center{
+    text-align: center;
 }
 
 /** page "Conseils" **/
@@ -438,6 +462,8 @@ p{
     background-color: inherit;
     font-size: 3rem;
 }
+                               /* FIN des ICONES d'énergie'*/
+                               
 .card-link{
     color: #fff;
     background-color: #1594aa;
@@ -446,6 +472,14 @@ p{
 .card-header{
     background-color: #1594aa;
 }
+
+/** page Documentation **/
+
+.docu1 {
+    position: relative;
+    top: -4rem;
+}
+
 /** page "Contact" de Marc **/
 
 img
@@ -474,6 +508,12 @@ img
     top: -5rem;
 }
 
+
+/** page essai a propos **/
+
+
+                         /* ------------------  */
+
 /** Footer de marc **/
 footer {
     margin: 50px;
@@ -493,39 +533,9 @@ footer {
     position: relative;
     margin: 0px auto 0;
     display: inline-block;
-
 }
 
-/** page "ACTIVITES" de Angelique **/
-.activa {
-    position: relative;
-    top:-8rem;
-
-}
-.activa2 {
-    position: relative;
-    top:-1rem;
-
-}
-.blue-h1{
-    color: #2094AB;
-    text-align: center;
-    margin-top: 2.3rem;
-}
-
-.active p{
-    padding-left : 50px;
-    padding-right: 50px;
-}
-.pad-top-30{
-    padding-top: 30px;
-}
-.text-center{
-    text-align: center;
-}
-
-/** page de Bill **/
 
 
-/** page essai a propos **/
+
 
