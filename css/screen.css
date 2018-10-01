@@ -136,7 +136,7 @@ nav li {
 
 }
 .main li:hover {
-    background-color: rgba(0, 0, 255, 0.3); /* Couleur d'arriere-plan des menu au survol */ 
+    background-color: rgba(255, 255, 255, 0.3); /* Couleur d'arriere-plan des menu au survol */ 
 }
 .main a {
     display: block ;
@@ -163,7 +163,7 @@ nav li {
 }
 
 .acta {
-    background-color: rgba(0, 0, 255, 0.3); 
+    background-color: rgba(255, 255, 255, 0.5); 
 }
 .main li a {
     color: #ffffff; /* Couleur du texte du menu */
