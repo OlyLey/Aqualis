@@ -16,9 +16,9 @@ body{
 .social {
     display: block;
     position: relative;
-    left: 40rem;
+    left: 30rem;
 
-top: -9rem;
+    top: -7rem;
     z-index: 100; 
 
 }
