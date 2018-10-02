@@ -298,8 +298,12 @@ p{
 }
 
 .public-photo{
-    width: 55%;
+    width: 30%;
     margin: 0 auto;
+}
+.public-photo img{
+    padding-bottom: 0;
+    
 }
 .ambassadeur{
     margin-top: 45px;
@@ -317,8 +321,8 @@ p{
 
 }
 .possiblesPt{
-    height: 9rem;
-    width: 15rem;
+    height: 10rem;
+    width: 17rem;
     margin: 0 auto;
 }
 
