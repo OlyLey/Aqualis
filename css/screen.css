@@ -137,6 +137,7 @@ nav li {
 }
 .main li:hover {
     background-color: rgba(255, 255, 255, 0.3); /* Couleur d'arriere-plan des menu au survol */ 
+     
 }
 .main a {
     display: block ;
@@ -170,8 +171,9 @@ nav li {
     font-size: 1.3rem;
 }
 .main li:hover a {
-    color: #e45533; /* Couleur du texte du menu au survol */
-
+   /* color: #e45533;  Couleur du texte du menu au survol */
+   color: whitesmoke;
+   font-weight: bolder;
 }
 .main ul li {
     background-color: #ccc; /* Couleur d'arriere-plan des sous-menu */
