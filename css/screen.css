@@ -207,7 +207,9 @@ header, .nav-principal{
 }
 
 .titre_faq {
-       color: #09699B; 
+      /* color: #09699B; */
+      color: #1594aa;
+      font-weight: 500;
 }
 
 .dis-none{
@@ -220,7 +222,7 @@ ul{
     position: relative;
     top: -6rem;
     background-color: #F1F9FC;
-    margin:  20px 50px;
+    margin:  20px 30px;
     text-align: center;
     height : 95%;
 }
@@ -352,7 +354,7 @@ p{
     margin-top: -8rem;
 }
 .margin-bottom{
-    margin-bottom: 3rem;
+    margin-bottom: 1.8rem;
 }
 
 .energies{                       /* Icônes d'ENERGIES' */
@@ -404,12 +406,13 @@ p{
 }
 
 
-/** page Documentation **/
+/** page Recommandations : Angélique **/
 
-.docu1 {
+.docu1{
     position: relative;
     top: -4rem;
 }
+
 
 
 /** page "Contact" de Marc **/
