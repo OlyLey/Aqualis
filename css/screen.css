@@ -1,8 +1,11 @@
 body {
+
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     color: black;
 
+    /*background-image: url(images/virement02.png) ;
+    background-attachment:fixed;*/
     margin:0px;
     padding:0px;
 
@@ -137,7 +140,7 @@ nav li {
 }
 .main li:hover {
     background-color: rgba(255, 255, 255, 0.3); /* Couleur d'arriere-plan des menu au survol */ 
-     
+
 }
 .main a {
     display: block ;
@@ -171,9 +174,9 @@ nav li {
     font-size: 1.3rem;
 }
 .main li:hover a {
-   /* color: #e45533;  Couleur du texte du menu au survol */
-   color: whitesmoke;
-   font-weight: bolder;
+    /* color: #e45533;  Couleur du texte du menu au survol */
+    color: whitesmoke;
+    font-weight: bolder;
 }
 .main ul li {
     background-color: #ccc; /* Couleur d'arriere-plan des sous-menu */
@@ -207,9 +210,9 @@ header, .nav-principal{
 }
 
 .titre_faq {
-      /* color: #09699B; */
-      color: #1594aa;
-      font-weight: 500;
+    /* color: #09699B; */
+    color: #1594aa;
+    font-weight: 500;
 }
 
 .dis-none{
@@ -226,14 +229,14 @@ ul{
     text-align: center;
     height : 95%;
 }
-    /** inutile pour l'instant 
+/** inutile pour l'instant 
 .blue-back2{
-    position: relative;
-    top: -7rem;
-    background-color: #F1F9FC;
-    margin:  20px 50px;
-    text-align: center;
-    height : 95%;
+position: relative;
+top: -7rem;
+background-color: #F1F9FC;
+margin:  20px 50px;
+text-align: center;
+height : 95%;
 }**/
 
 .blue-back h1{
@@ -357,7 +360,7 @@ p{
     margin-bottom: 1.8rem;
 }
 
-.energies{                       /* Icônes d'ENERGIES' */
+.energies{                       /* IcÃ´nes d'ENERGIES' */
     width: 4rem;
     height: 4rem;
     display: inline-block;
@@ -379,7 +382,7 @@ p{
 }
 .gripfire{
     background-color: #1894ac;
-    
+
 }
 .gripfire:hover{
     color: #de5a39;
@@ -394,8 +397,8 @@ p{
     background-color: inherit;
     font-size: 3rem;
 }
-                               /* FIN des ICONES d'énergie'*/
-                               
+/* FIN des ICONES d'Ã©nergie'*/
+
 .card-link{
     color: #fff;
     background-color: #1594aa;
@@ -406,7 +409,7 @@ p{
 }
 
 
-/** page Recommandations : Angélique **/
+/** page Recommandations : AngÃ©lique **/
 
 .docu1{
     position: relative;
@@ -447,7 +450,7 @@ img
 /** page essai a propos **/
 
 
-                         /* ------------------  */
+/* ------------------  */
 
 /** Footer de marc **/
 footer {
