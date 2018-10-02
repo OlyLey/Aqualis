@@ -192,7 +192,7 @@ nav li {
 }
 
 
-/** page ACCUEIL  Angelique **/
+        /** page ACCUEIL  Angelique **/
 header, .nav-principal{
     max-width: 100%;
     margin: 0 auto;
@@ -277,6 +277,7 @@ p{
     padding-top: 30px;
     height: 0;
     overflow: hidden;
+    margin-top: 1.9rem;
 }
 
 .video-container iframe,  
@@ -316,7 +317,7 @@ p{
 
 }
 
-/** page "ACTIVITES" de Angelique **/
+        /** page "ACTIVITES" de Angelique **/
 .activa {
     position: relative;
     top:-8rem;
@@ -342,6 +343,25 @@ p{
 }
 .text-center{
     text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.img-300{
+    height: 15rem;
+    width: 15rem;
+    padding: 1rem;
+    display: flex;
+    margin-left: 7.5rem;
+    border: 1px solid transparent;
+}
+.img-450{
+    height: 22.5rem;
+    width: 22.5rem;
+    margin: 0 auto;
+}
+.blue-back p{
+    margin-bottom: 0;
 }
 
 /** page "Conseils" **/
