@@ -11,8 +11,6 @@ body {
 
 }
 
-/*Bonjour*/
-/** erreur ds "header div img"  =>     max-height: 12.5rem; */
 
 /** Menu par Marc**/
 
@@ -30,7 +28,7 @@ header div img{
 }
 .vague {
     display: block;
-    top: -1rem;
+    top: 1rem;
     width: 100%;
     min-height: 10rem;
     position: relative;
@@ -40,18 +38,20 @@ header div img{
     display: none;
 }
 .logo_aqualis {
-
+    position: relative;
+    top: -10rem;
     display: block;
     max-width: 30%;
-    margin: -200px auto 0;
+    margin: 0 auto 0;
     z-index: 100;
 }
+
 nav li {
     width: 12rem;
 }
 .energy {
     position: relative;
-    top: -3rem;
+    top: -12rem;
     margin: 0px auto 0;
     display: block;
     width: 100%;
@@ -59,7 +59,7 @@ nav li {
 
 .eco_conso {
     position: relative;
-    top: -4.5rem;
+    top: -13rem;
     margin: 0px auto 0;
     display: block;
     width: 30%;
@@ -113,7 +113,7 @@ nav li {
 
 .main {
     position: relative;
-    top: -1rem;
+    top: -10rem;
 
     text-align: center;
 }
@@ -163,7 +163,7 @@ nav li {
 
 }
 .main li {
-    background-color: none; /* Couleur d'arriere-plan du menu */
+    /*background-color: ;  => Couleur d'arriere-plan du menu */
 }
 
 .acta {
@@ -192,7 +192,7 @@ nav li {
 }
 
 
-        /** page ACCUEIL  Angelique **/
+/** page ACCUEIL  Angelique **/
 header, .nav-principal{
     max-width: 100%;
     margin: 0 auto;
@@ -223,21 +223,21 @@ ul{
 }
 .blue-back{
     position: relative;
-    top: -6rem;
+    top: -20rem;
     background-color: #F1F9FC;
     margin:  20px 30px;
     text-align: center;
     height : 95%;
 }
-/** inutile pour l'instant 
+
 .blue-back2{
-position: relative;
-top: -7rem;
-background-color: #F1F9FC;
-margin:  20px 50px;
-text-align: center;
-height : 95%;
-}**/
+    position: relative;
+    top: -15rem;
+    background-color: #F1F9FC;
+    margin:  20px 50px;
+    text-align: center;
+    height : 95%;
+}
 
 .blue-back h1{
     font-size: 2.1rem;
@@ -303,7 +303,7 @@ p{
 }
 .public-photo img{
     padding-bottom: 0;
-    
+
 }
 .ambassadeur{
     margin-top: 45px;
@@ -326,10 +326,10 @@ p{
     margin: 0 auto;
 }
 
-        /** page "ACTIVITES" de Angelique **/
+/** page "ACTIVITES" de Angelique **/
 .activa {
     position: relative;
-    top:-8rem;
+    top:-18rem;
 
 }
 .activa2 {
@@ -380,11 +380,11 @@ p{
 /** page "Conseils" **/
 .eau_gaz_elect {
     position: relative;
-    top: -4rem;
+    top: 2rem;
 }
 .foire{
     position: relative;
-    top: -8rem;
+    top: -15rem;
 }
 .margin-top{
     margin-top: -8rem;
@@ -446,7 +446,7 @@ p{
 
 .docu1{
     position: relative;
-    top: -4rem;
+    top: -8rem;
 }
 
 
@@ -472,11 +472,11 @@ img
     background-color: #F1F9FC; 
 }
 
-/** Page contact**/
+
 
 .formul {
     position: relative;
-    top: -5rem;
+    top: -12rem;
 }
 
 
@@ -492,7 +492,7 @@ footer {
 
 .bas_de_page {
     position: relative;
-    top: -5rem;
+    top: -15rem;
     display: block;
     height: 8rem;
     width: auto;
@@ -504,6 +504,138 @@ footer {
     position: relative;
     margin: 0px auto 0;
     display: inline-block;
+}
+
+/* debut class boutons sociaux */
+.social {
+    display: block;
+    position: relative;
+    /* left: 30rem;*/
+
+    top: -18rem;
+    z-index: 100; 
+
+}
+.social_media ul{
+    position: absolute;
+    /* top: 50%; */
+    left: 20%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+.social_media ul li{
+    list-style: none;
+    margin: 0 40px;
+
+}
+.social_media ul li .fa{
+    font-size: 40px;
+    color: #262626;
+    line-height: 60px; /* modifier taille bouton (1/4) */
+    transition: .5s;
+
+}
+.social_media ul li a{
+    position: relative;
+    display: block;
+    width: 60px; /* modifier taille bouton (2/4) */
+    height: 60px; /* modifier taille bouton (3/4) */
+    background-color: #fff;
+    text-align: center;
+    transform: perspective(100px) rotate(-30deg) skew(25deg) translate(0,0);
+    transition: .5s;
+    box-shadow: -20px 20px 10px rgb(0, 0, 0, 0.5);
+}
+.social_media ul li a::before{
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: -20px;
+    height: 100%;
+    width: 20px;
+    background: #b1b1b1;
+    transition: .5s;
+    transform: rotate(0deg) skewY(-45deg);
+}
+.social_media ul li a::after{
+    content: "";
+    position: absolute;
+    top: 60px; /* modifier taille bouton (4/4) */
+    left: -11px;
+    height: 20px;
+    width: 100%;
+    background: #b1b1b1;
+    transition: .5s;
+    transform: rotate(0deg) skewX(-45deg);
+}
+.social_media ul li a:hover{
+    transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(20px, -20px);
+    box-shadow: -50px 50px 50px rgb(0, 0, 0, 0.5);
+}
+.social_media ul li:hover .fa{
+    color: #fff;
+}
+.social_media ul li a:hover{
+    transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(20px, -20px);
+    box-shadow: -50px 50px 50px rgb(0, 0, 0, 0.5);
+}
+.social_media ul li:hover:nth-child(1) a{
+    background: #3b5999;
+}
+
+.social_media ul li:hover:nth-child(1) a:before{
+    background: #2e4a86;
+}
+.social_media ul li:hover:nth-child(1) a:after{
+    background: #4a69ad;
+}
+.social_media ul li:hover:nth-child(2) a{
+    background: #55acee;
+}
+.social_media ul li:hover:nth-child(2) a:before{
+    background: #4184b7;
+}
+.social_media ul li:hover:nth-child(2) a:after{
+    background: #4d9fde;
+}
+.social_media ul li:hover:nth-child(3) a{
+    background: #dd4b39;
+}
+
+.social_media ul li:hover:nth-child(3) a:before{
+    background: #c13929;
+}
+.social_media ul li:hover:nth-child(3) a:after{
+    background: #e83322;
+}
+
+.social_media ul li:hover:nth-child(4) a{
+    background: #0077B5;
+}
+
+.social_media ul li:hover:nth-child(4) a:before{
+    background: #036aa0;
+}
+.social_media ul li:hover:nth-child(4) a:after{
+    background: #0d82bf;
+}
+
+.social_media ul li:hover:nth-child(5) a{
+    background: linear-gradient(#400080, transparent), linear-gradient(200deg, #d047d1, #ff0000, #ffff00);
+}
+
+.social_media ul li:hover:nth-child(5) a:before{
+    background: linear-gradient(#400080, transparent), linear-gradient(200deg, #d047d1, #ff0000, #ffff00);
+}
+.social_media ul li:hover:nth-child(5) a:after{
+    background: linear-gradient(#400080, transparent), linear-gradient(200deg, #d047d1, #ff0000, #ffff00);
+}
+/* fin class boutons sociaux */
+.acta {
+    background-color: rgba(255, 255, 255, 0.5); 
 }
 @media screen and (max-width: 640px) {
     .main-navigation .bouton {
