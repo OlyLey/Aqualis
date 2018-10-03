@@ -22,7 +22,7 @@ body{
     z-index: 100; 
 
 }
-main ul{
+.social_media ul{
     position: absolute;
    /* top: 50%; */
     left: 20%;
@@ -32,19 +32,19 @@ main ul{
     display: flex;
 
 }
-main ul li{
+.social_media ul li{
     list-style: none;
     margin: 0 40px;
 
 }
-main ul li .fa{
+.social_media ul li .fa{
     font-size: 40px;
     color: #262626;
     line-height: 60px; /* modifier taille bouton (1/4) */
     transition: .5s;
 
 }
-main ul li a{
+.social_media ul li a{
     position: relative;
     display: block;
     width: 60px; /* modifier taille bouton (2/4) */
@@ -55,7 +55,7 @@ main ul li a{
     transition: .5s;
     box-shadow: -20px 20px 10px rgb(0, 0, 0, 0.5);
 }
-main ul li a::before{
+.social_media ul li a::before{
     content: "";
     position: absolute;
     top: 10px;
@@ -66,7 +66,7 @@ main ul li a::before{
     transition: .5s;
     transform: rotate(0deg) skewY(-45deg);
 }
-main ul li a::after{
+.social_media ul li a::after{
     content: "";
     position: absolute;
     top: 60px; /* modifier taille bouton (4/4) */
@@ -77,65 +77,65 @@ main ul li a::after{
     transition: .5s;
     transform: rotate(0deg) skewX(-45deg);
 }
-main ul li a:hover{
+.social_media ul li a:hover{
     transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(20px, -20px);
     box-shadow: -50px 50px 50px rgb(0, 0, 0, 0.5);
 }
-main ul li:hover .fa{
+.social_media ul li:hover .fa{
     color: #fff;
 }
-main ul li a:hover{
+.social_media ul li a:hover{
     transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(20px, -20px);
     box-shadow: -50px 50px 50px rgb(0, 0, 0, 0.5);
 }
-ul li:hover:nth-child(1) a{
+.social_media ul li:hover:nth-child(1) a{
     background: #3b5999;
 }
 
-main ul li:hover:nth-child(1) a:before{
+.social_media ul li:hover:nth-child(1) a:before{
     background: #2e4a86;
 }
-main ul li:hover:nth-child(1) a:after{
+.social_media ul li:hover:nth-child(1) a:after{
     background: #4a69ad;
 }
-main ul li:hover:nth-child(2) a{
+.social_media ul li:hover:nth-child(2) a{
     background: #55acee;
 }
-main ul li:hover:nth-child(2) a:before{
+.social_media ul li:hover:nth-child(2) a:before{
     background: #4184b7;
 }
-main ul li:hover:nth-child(2) a:after{
+.social_media ul li:hover:nth-child(2) a:after{
     background: #4d9fde;
 }
-main ul li:hover:nth-child(3) a{
+.social_media ul li:hover:nth-child(3) a{
     background: #dd4b39;
 }
 
-main ul li:hover:nth-child(3) a:before{
+.social_media ul li:hover:nth-child(3) a:before{
     background: #c13929;
 }
-main ul li:hover:nth-child(3) a:after{
+.social_media ul li:hover:nth-child(3) a:after{
     background: #e83322;
 }
 
-main ul li:hover:nth-child(4) a{
+.social_media ul li:hover:nth-child(4) a{
     background: #0077B5;
 }
 
-main ul li:hover:nth-child(4) a:before{
+.social_media ul li:hover:nth-child(4) a:before{
     background: #036aa0;
 }
-main ul li:hover:nth-child(4) a:after{
+.social_media ul li:hover:nth-child(4) a:after{
     background: #0d82bf;
 }
 
-main ul li:hover:nth-child(5) a{
+.social_media ul li:hover:nth-child(5) a{
     background: linear-gradient(#400080, transparent), linear-gradient(200deg, #d047d1, #ff0000, #ffff00);
 }
 
-main ul li:hover:nth-child(5) a:before{
+.social_media ul li:hover:nth-child(5) a:before{
     background: linear-gradient(#400080, transparent), linear-gradient(200deg, #d047d1, #ff0000, #ffff00);
 }
-main ul li:hover:nth-child(5) a:after{
+.social_media ul li:hover:nth-child(5) a:after{
     background: linear-gradient(#400080, transparent), linear-gradient(200deg, #d047d1, #ff0000, #ffff00);
 }
