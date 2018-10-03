@@ -225,7 +225,7 @@ ul{
     position: relative;
     top: -16rem;
     background-color: #F1F9FC;
-   margin:  20px 50px;
+    margin:  20px 50px;
     text-align: center;
     height : 95%;
 }
@@ -650,17 +650,55 @@ footer {
 @media screen and (max-width: 640px) {
     .main-navigation .bouton {
         display: block; 
+
     }
     .bouton {
         margin-top: -2rem;
     }
     .main {
+        top: 3.5rem;
         display: none;
+
     }
     .main-navigation .bouton {
         text-align: right;
         display: block;
     }
+    .main li:hover {
+        background-color: rgba(255, 255, 255, 0.3); /* Couleur d'arriere-plan des menu au survol */ 
+    }
+    .main li {
+        background-color: ; /* => Couleur d'arriere-plan du menu */
+    }
+    .main li a {
+        color: #09699B; ; /* Couleur du texte du menu */
+        font-size: 1.3rem;
+        z-index: 100
+    }
+    .main li:hover a {
+        /* color: #e45533;  Couleur du texte du menu au survol */
+        color: #09699B; 
+        font-weight: bolder;
+        z-index: 100
+    }
+    .main ul li {
+        background-color: #ccc; /* Couleur d'arriere-plan des sous-menu */
+    }
+    .main ul li:hover {
+        background-color: #F1F9FC;/* Couleur d'arriere-plan des sous-menu au survol */ 
+
+    }
+    .main ul li a {
+        color: #666; /* Couleur du texte des sous-menu */
+    }
+    .main ul li:hover a {
+        color: #f00 ; /* Couleur du texte des sous-menu au survol */
+    }
+
+    .acta {
+        background-color: rgba(9, 105, 155, 0.2); 
+    }
+
     .vague {
         display: none;
         top: -4rem;
@@ -671,7 +709,7 @@ footer {
     }
     .vague_mobile {
         display: block;
-        top: 2.5rem;
+        top: 5rem;
         width: 100%;
         min-height: 8rem;
         position: relative;
@@ -685,11 +723,28 @@ footer {
         z-index: 100;
     }
     .blue-back {
-        top: -5rem;
+        top: 1rem;
+            margin:  20px 0px;
+    }
+    .blue-back2 {
+        top: 1rem;
+    }
+    .blue-back3 {
+        top: 1rem;
+    }
+    .petit{
+        font-size: 1rem;
+    }
+    .moyen{
+        font-size: 1.3rem;
+    }
+    .eco_conso {
+        top: 3rem;
+        width: 80%;
     }
     .energy {
         position: relative;
-        top: 1rem;
+        top: 3.5rem;
         margin: 0px auto 0;
         display: inline-block;
         width: 100%;
@@ -723,6 +778,25 @@ footer {
     .menus {
         display: inline-block;
         z-index: 100;
+    }
+    .formul {
+
+        top: 1rem;
+    }
+    .bas_de_page {
+        top: -1rem;
+    }
+    .pub {
+        display: none;
+    }
+    .pub2 {
+        position: relative;
+        margin: 0px auto 0;
+        display: block
+    }
+    .activa {
+        top:2rem;
+        height : 90%;
     }
 }
 
