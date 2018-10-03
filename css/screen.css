@@ -225,7 +225,7 @@ ul{
     position: relative;
     top: -20rem;
     background-color: #F1F9FC;
-    margin:  20px 30px;
+
     text-align: center;
     height : 95%;
 }
@@ -234,9 +234,9 @@ ul{
     position: relative;
     top: -15rem;
     background-color: #F1F9FC;
-    margin:  20px 50px;
+
     text-align: center;
-    height : 95%;
+    height : 75%;
 }
 
 .blue-back h1{
@@ -330,7 +330,10 @@ p{
 .activa {
     position: relative;
     top:-18rem;
+    background-color: #F1F9FC;
 
+    text-align: center;
+    height : 75%;
 }
 .activa2 {
     position: relative;
@@ -393,7 +396,7 @@ p{
     margin-bottom: 1.8rem;
 }
 
-.energies{                       /* IcÃ´nes d'ENERGIES' */
+.energies{                       /* IcÃƒÂ´nes d'ENERGIES' */
     width: 4rem;
     height: 4rem;
     display: inline-block;
@@ -430,7 +433,7 @@ p{
     background-color: inherit;
     font-size: 3rem;
 }
-/* FIN des ICONES d'Ã©nergie'*/
+/* FIN des ICONES d'ÃƒÂ©nergie'*/
 
 .card-link{
     color: #fff;
@@ -442,7 +445,7 @@ p{
 }
 
 
-/** page Recommandations : AngÃ©lique **/
+/** page Recommandations : AngÃƒÂ©lique **/
 
 .docu1{
     position: relative;
