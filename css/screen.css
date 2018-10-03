@@ -223,9 +223,9 @@ ul{
 }
 .blue-back{
     position: relative;
-    top: -20rem;
+    top: -16rem;
     background-color: #F1F9FC;
-
+   margin:  20px 50px;
     text-align: center;
     height : 95%;
 }
@@ -234,11 +234,18 @@ ul{
     position: relative;
     top: -15rem;
     background-color: #F1F9FC;
-
+    margin:  20px 50px;
     text-align: center;
-    height : 75%;
+    height : 95%;
 }
-
+.blue-back3{
+    position: relative;
+    top: -15rem;
+    background-color: #F1F9FC;
+    margin:  20px 50px;
+    text-align: center;
+    height : 95%;
+}
 .blue-back h1{
     font-size: 2.1rem;
 }
@@ -387,7 +394,7 @@ p{
 }
 .foire{
     position: relative;
-    top: -15rem;
+    top: -12rem;
 }
 .margin-top{
     margin-top: -8rem;
