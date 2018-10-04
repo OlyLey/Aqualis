@@ -509,8 +509,11 @@ Licensed under GPL
 }
 
 
-/** page Recommandations : AngÃƒÆ’Ã‚Â©lique **/
+/** page Recommandations : Angelique **/
 
+.pad-bottom-50{
+    padding-bottom: 50px;
+}
 .docu1{
     position: relative;
     top: -8rem;
