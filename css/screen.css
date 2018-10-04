@@ -561,6 +561,9 @@ footer {
     margin: 0px auto 0;
     display: inline-block;
 }
+.pub_mobile {
+    display:  none;
+}
 
 /* debut class boutons sociaux */
 .social {
@@ -839,6 +842,9 @@ footer {
         position: relative;
         margin: 0px auto 0;
         display: block
+    }
+    .pub_mobile {
+        display: block;
     }
     .activa {
         top:2rem;
