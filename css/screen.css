@@ -59,10 +59,10 @@ nav li {
 
 .eco_conso {
     position: relative;
-    top: -13rem;
+    top: -18rem;
     margin: 0px auto 0;
     display: block;
-    width: 30%;
+    width: 40%;
 }
 .mdp_logo {
     position: relative;
@@ -241,7 +241,7 @@ ul{
 
 .blue-back2{
     position: relative;
-    top: -15rem;
+    top: -18rem;
     background-color: #F1F9FC;
     margin:  20px 50px;
     text-align: center;
@@ -554,6 +554,14 @@ img
 .formul {
     position: relative;
     top: -12rem;
+}
+.nous2 {
+    position: relative;
+    top:1rem;
+}
+.nous {
+    width: 150px;
+    height: 150px;
 }
 
 
