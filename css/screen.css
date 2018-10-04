@@ -64,6 +64,13 @@ nav li {
     display: block;
     width: 30%;
 }
+.mdp_logo {
+    position: relative;
+    top: -40.5rem;
+    width: 12rem;
+    left: 8rem;
+    
+}
 .popup_pret_outils {
     position: absolute;
     top: 1rem;
@@ -260,7 +267,7 @@ ul{
 }
 
 p{
-    padding: 20px 10px;
+    padding: 10px 10px;
     font-size: 1.2rem;
 }
 .contenu-pop h3{
@@ -268,7 +275,7 @@ p{
 }
 .floatLeft{
     float:left;
-    margin: 50px 10px;
+    margin: 10px 10px;
     width: 57%; 
 }
 .p-14{
@@ -523,7 +530,7 @@ footer {
 .social {
     display: block;
     position: relative;
-    left: 70rem;
+    left: 60rem;
 
     top: -18rem;
     z-index: 100; 
@@ -671,7 +678,7 @@ footer {
         background-color: rgba(255, 255, 255, 0.3); /* Couleur d'arriere-plan des menu au survol */ 
     }
     .main li {
-      /*   background-color: ; /* => Couleur d'arriere-plan du menu */
+        /*   background-color: ; /* => Couleur d'arriere-plan du menu */
     }
     .main li a {
         color: #09699B; ; /* Couleur du texte du menu */
@@ -727,13 +734,23 @@ footer {
     }
     .blue-back {
         top: 1rem;
-            margin:  20px 0px;
+        margin:  20px 0px;
     }
     .blue-back2 {
         top: 1rem;
     }
     .blue-back3 {
         top: 1rem;
+    }
+    .blue-back4 {
+        position: relative;
+        display: block;
+        /* top: -16rem; */
+        background-color: #F1F9FC;
+
+        text-align: center;
+
+        width: 100%;
     }
     .petit{
         font-size: 1rem;
@@ -788,6 +805,7 @@ footer {
     }
     .bas_de_page {
         top: -1rem;
+        padding: 0 ;
     }
     .pub {
         display: none;
