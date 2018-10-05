@@ -69,7 +69,7 @@ nav li {
     top: -40.5rem;
     width: 12rem;
     left: 8rem;
-    
+
 }
 .popup_pret_outils {
     position: absolute;
@@ -255,6 +255,16 @@ ul{
     text-align: center;
     height : 95%;
 }
+.blue-back5 {
+    position: relative;
+    top: -5rem;
+    background-color: #F1F9FC;
+    margin:  20px 50px;
+    text-align: justify;
+    height : 80%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
 .blue-back h1{
     font-size: 2.1rem;
 }
@@ -393,7 +403,7 @@ p{
     width: 15rem;
     padding: 1rem;
     display: flex;
-    margin-left: 7.5rem;
+    margin-left: 6rem;
     border: 1px solid transparent;
 }
 .img-450{
@@ -412,7 +422,11 @@ p{
 }
 .foire{
     position: relative;
-    top: -12rem;
+    top: -10rem;
+}
+.foire2{
+    position: relative;
+    top: -20rem;
 }
 .margin-top{
     margin-top: -8rem;
@@ -460,46 +474,56 @@ p{
     background-color: inherit;
     font-size: 3rem;
 }
+<<<<<<< HEAD
 
+=======
+.centra {
+    text-align: justify;
+    padding: 10px;
+}
+/*Peculiar was created by Lucian Marin -lucianmarin.com
+Licensed under GPL
+*/
+>>>>>>> 6459d7efb1b06083658eabc9159128c3edd917d5
 .icon {
-	position: relative;
-	width: 16px;
-	height: 16px;
-	margin: 16px;
+    position: relative;
+    width: 16px;
+    height: 16px;
+    margin: 16px;
 }
 
 .icon .name {
-	width: 32px;
-	position: absolute;
-	text-align: center;
-	top: 18px;
-	left: -8px;
+    width: 32px;
+    position: absolute;
+    text-align: center;
+    top: 18px;
+    left: -8px;
 }
 
 .icon-temp-circle {
-	background-color: #000;
-	width: 6px;
-	height: 6px;
+    background-color: #000;
+    width: 6px;
+    height: 6px;
 
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	border-radius: 4px;
-	position: absolute;
-	bottom: 1px;
-	left: 5px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    position: absolute;
+    bottom: 1px;
+    left: 5px;
 }
 
 .icon-temp-line {
-	border: #000 1px solid;
-	width: 2px;
-	height: 10px;
+    border: #000 1px solid;
+    width: 2px;
+    height: 10px;
 
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	border-radius: 4px;
-	position: absolute;
-	top: 1px;
-	left: 6px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    position: absolute;
+    top: 1px;
+    left: 6px;
 }
 
 /* FIN des ICONES d'energie'*/
@@ -537,9 +561,11 @@ img
 }   
 .googlemap
 {
+    position: relative;
+    top:-rem;
     width: 100%;
     height: 30rem;
-    padding: -1rem;
+
     margin-bottom: 2rem;
 }
 .titre_contact {
@@ -556,8 +582,15 @@ img
 .blue1{
     color:#09699B;
 }
+<<<<<<< HEAD
 .orange{
     color: #cc6633;
+=======
+.blue2 {
+    position: relative;
+    color:#09699B;
+    top: -6rem;
+>>>>>>> 6459d7efb1b06083658eabc9159128c3edd917d5
 }
 
 .formul {
@@ -821,11 +854,14 @@ footer {
         z-index: 100;
     }
     .blue-back {
-        top: 1rem;
+        top: -6rem;
         margin:  20px 0px;
     }
     .blue-back2 {
-        top: 1rem;
+        top: -6rem;
+        height : 100%;
+        width: 100%;
+        margin: 0 0;
     }
     .blue-back3 {
         top: 1rem;
@@ -840,6 +876,27 @@ footer {
 
         width: 100%;
     }
+    .blue-back5 {
+        position: relative;
+        top:10rem;
+        width: 100%;
+        background-color: #F1F9FC;
+        margin:  0px 0px;
+        text-align: center;
+        height : 95%;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .blue-h1 {
+        font-size: 1.5rem;
+    }
+    .foire {
+        top: -3rem;
+    }
+    .foire2{
+
+    top: -3rem;
+    }
     .petit{
         font-size: 1rem;
     }
@@ -847,7 +904,7 @@ footer {
         font-size: 1.3rem;
     }
     .eco_conso {
-        top: 3rem;
+        top: -5rem;
         width: 80%;
     }
     .energy {
@@ -907,9 +964,26 @@ footer {
         display: block;
     }
     .activa {
-        top:2rem;
+        top:-6rem;
         height : 90%;
     }
+    .centra {
+        text-align: center;
+        padding: 0;
+    }
+    .img-300 {
+        height: 12rem;
+        width: 12rem;
+        margin-left: -0.5rem;
+        background-size: cover;
+    }
+    .img-450 {
+        height: 20rem;
+        width: 20rem;
+        margin-left: 0.5rem;
+        background-size: cover;
+    }
+
 }
 
 /*fin de @media screen and (max-width: 640px) */
