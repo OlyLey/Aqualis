@@ -403,7 +403,7 @@ p{
     width: 15rem;
     padding: 1rem;
     display: flex;
-    margin-left: 6rem;
+    margin-left: 7.5rem;
     border: 1px solid transparent;
 }
 .img-450{
@@ -422,11 +422,7 @@ p{
 }
 .foire{
     position: relative;
-    top: -10rem;
-}
-.foire2{
-    position: relative;
-    top: -20rem;
+    top: -22rem;
 }
 .margin-top{
     margin-top: -8rem;
@@ -476,12 +472,15 @@ p{
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 .centra {
     text-align: justify;
     padding: 10px;
 }
+=======
+>>>>>>> parent of 6459d7e... ajout description "Alt"
 /*Peculiar was created by Lucian Marin -lucianmarin.com
 Licensed under GPL
 */
@@ -567,7 +566,7 @@ img
 .googlemap
 {
     position: relative;
-    top:-rem;
+    top:-5rem;
     width: 100%;
     height: 30rem;
 
@@ -592,9 +591,14 @@ img
 =======
 .blue2 {
     position: relative;
+<<<<<<< HEAD
     color:#09699B;
     top: -6rem;
 >>>>>>> 6459d7efb1b06083658eabc9159128c3edd917d5
+=======
+        color:#09699B;
+        top: -6rem;
+>>>>>>> parent of 6459d7e... ajout description "Alt"
 }
 =======
 
@@ -850,14 +854,11 @@ footer {
         z-index: 100;
     }
     .blue-back {
-        top: -6rem;
+        top: 1rem;
         margin:  20px 0px;
     }
     .blue-back2 {
-        top: -6rem;
-        height : 100%;
-        width: 100%;
-        margin: 0 0;
+        top: 1rem;
     }
     .blue-back3 {
         top: 1rem;
@@ -889,10 +890,6 @@ footer {
     .foire {
         top: -3rem;
     }
-    .foire2{
-
-    top: -3rem;
-    }
     .petit{
         font-size: 1rem;
     }
@@ -900,7 +897,7 @@ footer {
         font-size: 1.3rem;
     }
     .eco_conso {
-        top: -5rem;
+        top: 3rem;
         width: 80%;
     }
     .energy {
@@ -960,26 +957,9 @@ footer {
         display: block;
     }
     .activa {
-        top:-6rem;
+        top:2rem;
         height : 90%;
     }
-    .centra {
-        text-align: center;
-        padding: 0;
-    }
-    .img-300 {
-        height: 12rem;
-        width: 12rem;
-        margin-left: -0.5rem;
-        background-size: cover;
-    }
-    .img-450 {
-        height: 20rem;
-        width: 20rem;
-        margin-left: 0.5rem;
-        background-size: cover;
-    }
-
 }
 
 /*fin de @media screen and (max-width: 640px) */
