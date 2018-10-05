@@ -460,9 +460,7 @@ p{
     background-color: inherit;
     font-size: 3rem;
 }
-/*Peculiar was created by Lucian Marin -lucianmarin.com
-Licensed under GPL
-*/
+
 .icon {
 	position: relative;
 	width: 16px;
@@ -525,14 +523,15 @@ Licensed under GPL
     position: relative;
     top: -8rem;
 }
+/* page outils */
 
 
 
-/** page "Contact" de Marc **/
+/** page "Contact"  Marc & Angelique **/
 
 img
 {
-    padding-bottom: 30px;
+    
     width: 100%;
     height: auto;
 }   
@@ -551,25 +550,40 @@ img
 .contact {
     background-color: #F1F9FC; 
     margin-bottom: 2rem;
+    padding-left: 7px;
+    margin-left: 16px;
 }
 .blue1{
     color:#09699B;
 }
-
+.orange{
+    color: #cc6633;
+}
 
 .formul {
     position: relative;
     top: -12rem;
+}
+.form-group label{
+    margin-top: 1.5rem;
+}
+.contact form{
+    padding-bottom: 2rem;
 }
 .nous2 {
     position: relative;
     top:1rem;
 }
 .nous {
-    width: 5.4rem;
-    height: 6rem;
+    width: 4rem;
+    height: 4.2rem;
 }
-
+.emphase{
+    font-style: italic;
+}
+.hauttr th{
+    max-height: 4rem;
+}
 
 /** page essai a propos **/
 
