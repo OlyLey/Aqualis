@@ -548,9 +548,11 @@ img
 }   
 .googlemap
 {
+    position: relative;
+    top:-5rem;
     width: 100%;
     height: 30rem;
-    padding: -1rem;
+
     margin-bottom: 2rem;
 }
 .titre_contact {
@@ -565,7 +567,11 @@ img
 .blue1{
     color:#09699B;
 }
-
+.blue2 {
+    position: relative;
+        color:#09699B;
+        top: -6rem;
+}
 
 .formul {
     position: relative;
