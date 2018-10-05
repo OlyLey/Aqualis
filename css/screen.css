@@ -475,6 +475,7 @@ p{
     font-size: 3rem;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 .centra {
@@ -485,6 +486,11 @@ p{
 Licensed under GPL
 */
 >>>>>>> 6459d7efb1b06083658eabc9159128c3edd917d5
+=======
+/*Peculiar was created by Lucian Marin -lucianmarin.com
+Licensed under GPL
+*/
+>>>>>>> parent of 045d4a8... ralisation TABLEAU dans page CONTACT
 .icon {
     position: relative;
     width: 16px;
@@ -547,15 +553,14 @@ Licensed under GPL
     position: relative;
     top: -8rem;
 }
-/* page outils */
 
 
 
-/** page "Contact"  Marc & Angelique **/
+/** page "Contact" de Marc **/
 
 img
 {
-    
+    padding-bottom: 30px;
     width: 100%;
     height: auto;
 }   
@@ -576,12 +581,11 @@ img
 .contact {
     background-color: #F1F9FC; 
     margin-bottom: 2rem;
-    padding-left: 7px;
-    margin-left: 16px;
 }
 .blue1{
     color:#09699B;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 .orange{
     color: #cc6633;
@@ -592,31 +596,23 @@ img
     top: -6rem;
 >>>>>>> 6459d7efb1b06083658eabc9159128c3edd917d5
 }
+=======
+
+>>>>>>> parent of 045d4a8... ralisation TABLEAU dans page CONTACT
 
 .formul {
     position: relative;
     top: -12rem;
-}
-.form-group label{
-    margin-top: 1.5rem;
-}
-.contact form{
-    padding-bottom: 2rem;
 }
 .nous2 {
     position: relative;
     top:1rem;
 }
 .nous {
-    width: 4rem;
-    height: 4.2rem;
+    width: 5.4rem;
+    height: 6rem;
 }
-.emphase{
-    font-style: italic;
-}
-.hauttr th{
-    max-height: 4rem;
-}
+
 
 /** page essai a propos **/
 
