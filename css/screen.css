@@ -403,7 +403,7 @@ p{
     width: 15rem;
     padding: 1rem;
     display: flex;
-    margin-left: 7.5rem;
+    margin-left: 6rem;
     border: 1px solid transparent;
 }
 .img-450{
@@ -422,7 +422,11 @@ p{
 }
 .foire{
     position: relative;
-    top: -22rem;
+    top: -10rem;
+}
+.foire2{
+    position: relative;
+    top: -20rem;
 }
 .margin-top{
     margin-top: -8rem;
@@ -469,6 +473,10 @@ p{
     color: #de5a39;
     background-color: inherit;
     font-size: 3rem;
+}
+.centra {
+    text-align: justify;
+    padding: 10px;
 }
 /*Peculiar was created by Lucian Marin -lucianmarin.com
 Licensed under GPL
@@ -549,7 +557,7 @@ img
 .googlemap
 {
     position: relative;
-    top:-5rem;
+    top:-rem;
     width: 100%;
     height: 30rem;
 
@@ -569,8 +577,8 @@ img
 }
 .blue2 {
     position: relative;
-        color:#09699B;
-        top: -6rem;
+    color:#09699B;
+    top: -6rem;
 }
 
 .formul {
@@ -823,11 +831,14 @@ footer {
         z-index: 100;
     }
     .blue-back {
-        top: 1rem;
+        top: -6rem;
         margin:  20px 0px;
     }
     .blue-back2 {
-        top: 1rem;
+        top: -6rem;
+        height : 100%;
+        width: 100%;
+        margin: 0 0;
     }
     .blue-back3 {
         top: 1rem;
@@ -859,6 +870,10 @@ footer {
     .foire {
         top: -3rem;
     }
+    .foire2{
+
+    top: -3rem;
+    }
     .petit{
         font-size: 1rem;
     }
@@ -866,7 +881,7 @@ footer {
         font-size: 1.3rem;
     }
     .eco_conso {
-        top: 3rem;
+        top: -5rem;
         width: 80%;
     }
     .energy {
@@ -926,9 +941,26 @@ footer {
         display: block;
     }
     .activa {
-        top:2rem;
+        top:-6rem;
         height : 90%;
     }
+    .centra {
+        text-align: center;
+        padding: 0;
+    }
+    .img-300 {
+        height: 12rem;
+        width: 12rem;
+        margin-left: -0.5rem;
+        background-size: cover;
+    }
+    .img-450 {
+        height: 20rem;
+        width: 20rem;
+        margin-left: 0.5rem;
+        background-size: cover;
+    }
+
 }
 
 /*fin de @media screen and (max-width: 640px) */
