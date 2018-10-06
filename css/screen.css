@@ -424,6 +424,10 @@ p{
     position: relative;
     top: -22rem;
 }
+.foire3 {
+       position: relative;
+    top: -10rem; 
+}
 .margin-top{
     margin-top: -8rem;
 }
@@ -470,26 +474,16 @@ p{
     background-color: inherit;
     font-size: 3rem;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
 .centra {
     text-align: justify;
     padding: 10px;
 }
-=======
->>>>>>> parent of 6459d7e... ajout description "Alt"
+
 /*Peculiar was created by Lucian Marin -lucianmarin.com
 Licensed under GPL
 */
->>>>>>> 6459d7efb1b06083658eabc9159128c3edd917d5
-=======
-/*Peculiar was created by Lucian Marin -lucianmarin.com
-Licensed under GPL
-*/
->>>>>>> parent of 045d4a8... ralisation TABLEAU dans page CONTACT
+
 .icon {
     position: relative;
     width: 16px;
@@ -584,25 +578,18 @@ img
 .blue1{
     color:#09699B;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 .orange{
     color: #cc6633;
-=======
+}
 .blue2 {
     position: relative;
-<<<<<<< HEAD
+
     color:#09699B;
     top: -6rem;
->>>>>>> 6459d7efb1b06083658eabc9159128c3edd917d5
-=======
-        color:#09699B;
-        top: -6rem;
->>>>>>> parent of 6459d7e... ajout description "Alt"
-}
-=======
 
->>>>>>> parent of 045d4a8... ralisation TABLEAU dans page CONTACT
+}
+
 
 .formul {
     position: relative;
@@ -631,6 +618,26 @@ footer {
 .bas_de_page {
     position: relative;
     top: -15rem;
+    display: block;
+    height: 8rem;
+    width: auto;
+    text-align: center;
+    background: #F1F9FC;
+    margin: 2rem auto 0;
+}
+.bas_de_page2 {
+    position: relative;
+    top: -10rem;
+    display: block;
+    height: 8rem;
+    width: auto;
+    text-align: center;
+    background: #F1F9FC;
+    margin: 2rem auto 0;
+}
+.bas_de_page3 {
+    position: relative;
+    top: -1rem;
     display: block;
     height: 8rem;
     width: auto;
@@ -888,6 +895,9 @@ footer {
         font-size: 1.5rem;
     }
     .foire {
+        top: -3rem;
+    }
+    .foire3 {
         top: -3rem;
     }
     .petit{
