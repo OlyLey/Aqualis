@@ -587,18 +587,24 @@ img
 }
 .blue2 {
     position: relative;
-
     color:#09699B;
     top: -6rem;
-
 }
+.blue3 {
+    position: relative;
+    color:#09699B;
+    top: -4rem;
+}
+
 .hauttr {
     display: block;
 }
 .hauttr2 {
     display: none;
 }
-
+.text-decoration{
+    text-decoration: underline;
+}
 
 .formul {
     position: relative;
