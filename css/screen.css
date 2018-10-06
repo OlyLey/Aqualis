@@ -589,6 +589,12 @@ img
     top: -6rem;
 
 }
+.hauttr {
+    display: block;
+}
+.hauttr2 {
+    display: none;
+}
 
 
 .formul {
@@ -603,7 +609,9 @@ img
     width: 5.4rem;
     height: 6rem;
 }
-
+thead {
+    display: none;
+}
 
 /** page essai a propos **/
 
@@ -627,7 +635,7 @@ footer {
 }
 .bas_de_page2 {
     position: relative;
-    top: -10rem;
+    top: -8rem;
     display: block;
     height: 8rem;
     width: auto;
@@ -970,6 +978,15 @@ footer {
         top:2rem;
         height : 90%;
     }
+    .nous {
+    
+    }
+    .hauttr {
+   display: none; 
+}
+.hauttr2 {
+    display: block;
+}
 }
 
 /*fin de @media screen and (max-width: 640px) */
