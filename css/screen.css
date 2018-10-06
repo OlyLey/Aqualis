@@ -244,8 +244,11 @@ ul{
     top: -18rem;
     background-color: #F1F9FC;
     margin:  20px 50px;
+    text-align: justify;
     text-align: center;
     height : 95%;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 .blue-back3{
     position: relative;
@@ -403,7 +406,7 @@ p{
     width: 15rem;
     padding: 1rem;
     display: flex;
-    margin-left: 7.5rem;
+    margin-left: 6rem;
     border: 1px solid transparent;
 }
 .img-450{
@@ -425,7 +428,7 @@ p{
     top: -22rem;
 }
 .foire3 {
-       position: relative;
+    position: relative;
     top: -10rem; 
 }
 .margin-top{
@@ -869,11 +872,12 @@ footer {
         z-index: 100;
     }
     .blue-back {
-        top: 1rem;
+        top: -5rem;
         margin:  20px 0px;
     }
     .blue-back2 {
-        top: 1rem;
+        top: -7rem;
+        margin:  20px 0px;
     }
     .blue-back3 {
         top: 1rem;
@@ -915,7 +919,7 @@ footer {
         font-size: 1.3rem;
     }
     .eco_conso {
-        top: 3rem;
+        top: -4.5rem;
         width: 80%;
     }
     .energy {
@@ -956,11 +960,14 @@ footer {
         z-index: 100;
     }
     .formul {
-
         top: 1rem;
     }
     .bas_de_page {
         top: -1rem;
+        padding: 0 ;
+    }
+    .bas_de_page2 {
+        top: -2rem;
         padding: 0 ;
     }
     .pub {
@@ -975,17 +982,30 @@ footer {
         display: block;
     }
     .activa {
-        top:2rem;
+        top:-6rem;
         height : 90%;
     }
     .nous {
-    
+
     }
     .hauttr {
-   display: none; 
+        display: none; 
+    }
+    .hauttr2 {
+        display: block;
+    }
+    .img-300{
+    height: 12rem;
+    width: 12rem;
+    padding: -1rem;
+    display: flex;
+    margin-left: -0.5rem;
+    border: 1px solid transparent;
 }
-.hauttr2 {
-    display: block;
+.img-450{
+    height: 18rem;
+    width: 18rem;
+    margin: 0 auto;
 }
 }
 
