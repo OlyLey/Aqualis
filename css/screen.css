@@ -556,7 +556,7 @@ Licensed under GPL
 
 img
 {
-    padding-bottom: 30px;
+   
     width: 100%;
     height: auto;
 }   
@@ -609,8 +609,8 @@ img
     top:1rem;
 }
 .nous {
-    width: 5.4rem;
-    height: 6rem;
+    width: 5rem;
+    height: 5rem;
 }
 thead {
     display: none;
