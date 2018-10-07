@@ -260,7 +260,7 @@ ul{
 }
 .blue-back5 {
     position: relative;
-    top: -5rem;
+    top: -2rem;
     background-color: #F1F9FC;
     margin:  20px 50px;
     text-align: justify;
@@ -434,8 +434,12 @@ p{
 .margin-top{
     margin-top: -8rem;
 }
+.margin-top18{
+    margin-top: 1.8rem;
+}
 .margin-bottom{
     margin-bottom: 1.8rem;
+    
 }
 
 .energies{                       /* Icones d'ENERGIES' */
@@ -549,7 +553,9 @@ Licensed under GPL
     position: relative;
     top: -8rem;
 }
-
+.recommandations{
+    font-size: 1rem;
+}
 
 
 /** page "Contact" de Marc **/
