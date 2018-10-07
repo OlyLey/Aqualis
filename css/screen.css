@@ -28,7 +28,7 @@ header div img{
 }
 .vague {
     display: block;
-    top: 1rem;
+    top: -1rem;
     width: 100%;
     min-height: 10rem;
     position: relative;
@@ -66,7 +66,7 @@ nav li {
 }
 .mdp_logo {
     position: relative;
-    top: -40.5rem;
+    top: -38rem;
     width: 12rem;
     left: 8rem;
 
@@ -440,7 +440,7 @@ p{
 }
 .margin-bottom{
     margin-bottom: 1.8rem;
-    
+
 }
 
 .energies{                       /* Icones d'ENERGIES' */
@@ -703,9 +703,9 @@ footer {
 .social {
     display: block;
     position: relative;
-    left: 60rem;
+    left: 58rem;
 
-    top: -18rem;
+    top: -16rem;
     z-index: 100; 
 
 }
@@ -826,6 +826,12 @@ footer {
 .social_media ul li:hover:nth-child(5) a:after{
     background: linear-gradient(#400080, transparent), linear-gradient(200deg, #d047d1, #ff0000, #ffff00);
 }
+.social-mobile {
+    display:  none;
+}
+.social_media_mobile {
+    display:  none ;  
+}
 /* fin class boutons sociaux */
 .acta {
     background-color: rgba(255, 255, 255, 0.5); 
@@ -836,10 +842,10 @@ footer {
 
     }
     .bouton {
-        margin-top: -2rem;
+        margin-top: 0.5rem;
     }
     .main {
-        top: 3.5rem;
+        top: 4rem;
         display: none;
 
     }
@@ -892,7 +898,7 @@ footer {
     }
     .vague_mobile {
         display: block;
-        top: 5rem;
+        top: 6rem;
         width: 100%;
         min-height: 8rem;
         position: relative;
@@ -906,11 +912,12 @@ footer {
         z-index: 100;
     }
     .blue-back {
-        top: -5rem;
+        top: -2rem;
         margin:  20px 0px;
     }
     .blue-back2 {
-        top: -7rem;
+        top: -3.5rem;
+        height : 100%;
         margin:  20px 0px;
     }
     .blue-back3 {
@@ -928,7 +935,7 @@ footer {
     }
     .blue-back5 {
         position: relative;
-        top:10rem;
+        top:12rem;
         width: 100%;
         background-color: #F1F9FC;
         margin:  0px 0px;
@@ -953,13 +960,13 @@ footer {
         font-size: 1.3rem;
     }
     .eco_conso {
-        top: -4.5rem;
+        top: -3rem;
         width: 80%;
     }
     .energy {
         position: relative;
-        top: 3.5rem;
-        margin: 0px auto 0;
+        top: 1rem;
+        margin: 4rem auto 0;
         display: inline-block;
         width: 100%;
         z-index: -1;
@@ -1016,7 +1023,7 @@ footer {
         display: block;
     }
     .activa {
-        top:-6rem;
+        top:-4rem;
         height : 90%;
     }
     .nous {
@@ -1029,18 +1036,49 @@ footer {
         display: block;
     }
     .img-300{
-    height: 12rem;
-    width: 12rem;
-    padding: -1rem;
-    display: flex;
-    margin-left: -0.5rem;
-    border: 1px solid transparent;
-}
-.img-450{
-    height: 18rem;
-    width: 18rem;
-    margin: 0 auto;
-}
+        height: 12rem;
+        width: 12rem;
+        padding: -1rem;
+        display: flex;
+        margin-left: -0.5rem;
+        border: 1px solid transparent;
+    }
+    .img-450{
+        height: 18rem;
+        width: 18rem;
+        margin: 0 auto;
+    }
+    .social {
+
+        left: 6rem;
+
+        top: 290rem;
+
+    }
+    .social2 {
+        left: 6rem;
+
+        top: 270rem;
+
+    }
+    .social3 {
+        left: 6rem;
+
+        top: 250rem;
+
+    }
+    .social4 {
+        left: 6rem;
+
+        top: 182rem;
+
+    }
+    .social5 {
+        left: 6rem;
+
+        top: 200rem;
+
+    }
 }
 
 /*fin de @media screen and (max-width: 640px) */
