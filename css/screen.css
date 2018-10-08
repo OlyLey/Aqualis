@@ -66,10 +66,15 @@ nav li {
 }
 .mdp_logo {
     position: relative;
-    top: -38rem;
+    top: -35.5rem;
     width: 12rem;
     left: 8rem;
-
+}
+.mdp_logo2{
+     position: relative;
+    top: -37.5rem;
+    width: 13rem;
+    left: 8.5rem;
 }
 .popup_pret_outils {
     position: absolute;
@@ -220,6 +225,10 @@ header, .nav-principal{
     /* color: #09699B; */
     color: #1594aa;
     font-weight: 500;
+    background-color: #F1F9FC;
+    padding: 1rem 0;
+    border: 1px solid transparent;
+    margin-top: 1rem;
 }
 
 .dis-none{
@@ -537,6 +546,10 @@ p{
     color: #fff;
     background-color: #1594aa;
     font-weight: bolder;
+}
+.card-link:hover{
+    color: #000;
+    
 }
 .card-header{
     background-color: #1594aa;
